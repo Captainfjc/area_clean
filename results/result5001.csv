@@ -1,0 +1,500 @@
+zcrtname,zstate1,zcity3,推理,省,市,地区
+China,guangdong,futian district,guangdong指广东，无需修改。futian district指广东深圳的福田区，属于深圳，深圳是地级市，返回shenzhen。将原输入市futian district填充到地区,guangdong,shenzhen,futian district
+China,guangdong,dongguan,guangdong指广东，无需修改。dongguan指东莞，东莞是地级市，符合格式要求，无需修改。输入没有提供地区名，填充为null。,guangdong,dongguan,null
+China,guangdong,No Data,guangdong指广东，无需修改。市信息为No Data，无法识别具体城市或地区，保持原样。,guangdong,No Data,null
+China,guangdong,yuexiu district,guangdong指广东，无需修改。yuexiu district指广州市越秀区，广州是地级市，返回guangzhou。将原输入市yuexiu district填充到地区。,guangdong,guangzhou,yuexiu district
+China,jiangsu,xinwu district,jiangsu指江苏，无需修改。xinwu district指无锡市新吴区，无锡是地级市，返回wuxi。将原输入市xinwu district填充到地区。,jiangsu,wuxi,xinwu district
+China,shandong,shibei district,shandong指山东，无需修改。shibei district指青岛市市北区，青岛是地级市，返回qingdao。将原输入市shibei district填充到地区。,shandong,qingdao,shibei district
+China,jiangsu,kunshan,jiangsu指江苏，无需修改。kunshan指昆山，昆山是县级市，所属地级市是苏州，返回suzhou。将原输入市kunshan填充到地区。,jiangsu,suzhou,kunshan
+China,guangxi zhuang,haicheng district,guangxi zhuang指广西壮族自治区，但haicheng district不属于广西任何地级市，信息不足，保持原样。,guangxi zhuang,haicheng district,null
+China,anhui,shushan district,anhui指安徽，无需修改。shushan district指合肥市蜀山区，合肥是地级市，返回hefei。将原输入市shushan district填充到地区。,anhui,hefei,shushan district
+China,beijing,shunyi district,beijing指北京，直辖市，无需修改。shunyi district指北京市顺义区，直接返回beijing。将原输入市shunyi district填充到地区。,beijing,beijing,shunyi district
+China,chongqing,yubei district,chongqing指重庆，直辖市，无需修改。yubei district指重庆市渝北区，直接返回chongqing。将原输入市yubei district填充到地区。,chongqing,chongqing,yubei district
+China,guangdong,baoan district,guangdong指广东，无需修改。baoan district指深圳市宝安区，深圳是地级市，返回shenzhen。将原输入市baoan district填充到地区。,guangdong,shenzhen,baoan district
+China,shanghai,shanghai,shanghai指上海，直辖市，无需修改。市信息为shanghai，即上海市本身，无需修改。输入没有提供地区名，填充为null。,shanghai,shanghai,null
+China,henan,linzhou,henan指河南，无需修改。linzhou指林州市，林州是县级市，所属地级市是安阳，返回anyang。将原输入市linzhou填充到地区。,henan,anyang,linzhou
+China,hunan,furong district,hunan指湖南，无需修改。furong district指长沙市芙蓉区，长沙是地级市，返回changsha。将原输入市furong district填充到地区。,hunan,changsha,furong district
+China,jiangsu,suzhou,jiangsu指江苏，无需修改。suzhou指苏州，苏州是地级市，符合格式要求，无需修改。输入没有提供地区名，填充为null。,jiangsu,suzhou,null
+China,sichuan,pidu district,sichuan指四川，无需修改。pidu district指成都市郫都区，成都为地级市，返回chengdu。将原输入市pidu district填充到地区。,sichuan,chengdu,pidu district
+China,hainan,haikou,hainan指海南，无需修改。haikou指海口，海口是地级市，符合格式要求，无需修改。输入没有提供地区名，填充为null。,hainan,haikou,null
+China,hubei,guanshan,hubei指湖北，无需修改。guanshan信息不足以确定其归属哪个地级市，保持原样。,hubei,guanshan,null
+China,hainan,lingao county,hainan指海南，无需修改。lingao county指临高县，临高县隶属于儋州市（现为海南省直辖县级行政单位），返回danzhou。将原输入市lingao county填充到地区。,huanan,danzhou,lingao county
+China,jiangxi,xihu district,jiangxi指江西，无需修改。xihu district指南昌市西湖区，南昌是地级市，返回nanchang。将原输入市xihu district填充到地区。,jiangxi,nanchang,xihu district
+China,guangdong,guangzhou,guangdong指广东，无需修改。guangzhou指广州，广州是地级市，符合格式要求，无需修改。输入没有提供地区名，填充为null。,guangdong,guangzhou,null
+China,guangdong,panyu district,guangdong指广东，无需修改。panyu district指广州市番禺区，广州是地级市，返回guangzhou。将原输入市panyu district填充到地区。,guangdong,guangzhou,panyu district
+China,guangdong,sanshui district,guangdong指广东，无需修改。sanshui district曾属于佛山市三水区，佛山是地级市，返回foshan。将原输入市sanshui district填充到地区。,guangdong,foshan,sanshui district
+China,guizhou,guanshanhu district,guizhou指贵州，无需修改。guanshanhu district指贵阳市观山湖区，贵阳是地级市，返回guiyang。将原输入市guanshanhu district填充到地区。,guizhou,guiyang,guanshanhu district
+China,jiangxi,zhushan district,jiangxi指江西，无需修改。zhushan district信息不足以确定其归属哪个地级市，保持原样。,jiangxi,zhushan district,null
+China,beijing,haidian district,beijing指北京，直辖市，无需修改。haidian district指北京市海淀区，直接返回beijing。将原输入市haidian district填充到地区。,beijing,beijing,haidian district
+China,guangdong,shenzhen,guangdong指广东，无需修改。shenzhen指深圳，深圳是地级市，符合格式要求，无需修改。输入没有提供地区名，填充为null。,guangdong,shenzhen,null
+China,shandong,xintai,shandong指山东，无需修改。xintai指新泰市，新泰是县级市，所属地级市是泰安，返回taian。将原输入市xintai填充到地区。,shandong,taian,xintai
+China,beijing,beijing,beijing指北京，直辖市，无需修改。市信息为beijing，即北京市本身，无需修改。输入没有提供地区名，填充为null。,beijing,beijing,null
+China,guizhou,zhongshan district,guizhou指贵州，无需修改。zhongshan district指遵义市中山路区域，但该名称可能不准确，由于不确定具体位置，保持原样。,guizhou,zhongshan district,null
+China,hebei,baoding,hebei指河北，无需修改。baoding指保定，保定是地级市，符合格式要求，无需修改。输入没有提供地区名，填充为null。,hebei,baoding,null
+China,gansu,chengguan district,gansu指甘肃，无需修改。chengguan district指兰州市城关区，兰州是地级市，返回lanzhou。将原输入市chengguan district填充到地区。,gansu,lanzhou,chengguan district
+China,jiangxi,pingxiang,jiangxi指江西，无需修改。pingxiang指萍乡，萍乡是地级市，符合格式要求，无需修改。输入没有提供地区名，填充为null。,jiangxi,pingxiang,null
+China,anhui,luyang qu,anhui指安徽，无需修改。luyang qu指合肥市庐阳区，合肥是地级市，返回hefei。将原输入市luyang qu填充到地区。,anhui,hefei,luyang qu
+China,hubei,wuchang district,hubei指湖北，无需修改。wuchang district指武汉市武昌区，武汉是地级市，返回wuhan。将原输入市wuchang district填充到地区。,hubei,wuhan,wuchang district
+China,hubei,wuhan,hubei指湖北，无需修改。wuhan指武汉，武汉是地级市，符合格式要求，无需修改。输入没有提供地区名，填充为null。,hubei,wuhan,null
+China,shanghai,pudong,shanghai指上海，直辖市，无需修改。pudong指浦东新区，直接返回shanghai。将原输入市pudong填充到地区。,shanghai,shanghai,pudong
+China,liaoning,hunnan district,liaoning指辽宁，无需修改。hunnan district指沈阳市浑南区，沈阳是地级市，返回shenyang。将原输入市hunnan district填充到地区。,liaoning,shenyang,hunnan district
+China,shaanxi,yanta district,shaanxi指陕西，无需修改。yanta district指西安市雁塔区，西安是地级市，返回xian。将原输入市yanta district填充到地区。,shaanxi,xian,yanta district
+China,anhui,hefei,anhui指安徽，无需修改。hefei指合肥，合肥是地级市，符合格式要求，无需修改。输入没有提供地区名，填充为null。,anhui,hefei,null
+China,beijing,chaoyang district,beijing指北京，直辖市，无需修改。chaoyang district指北京市朝阳区，直接返回beijing。将原输入市chaoyang district填充到地区。,beijing,beijing,chaoyang district
+China,guangdong,guangming district,guangdong指广东，无需修改。guangming district指深圳市光明区，深圳是地级市，返回shenzhen。将原输入市guangming district填充到地区。,guangdong,shenzhen,guangming district
+China,jiangsu,gusu district,jiangsu指江苏，无需修改。gusu district指苏州市姑苏区，苏州是地级市，返回suzhou。将原输入市gusu district填充到地区。,jiangsu,suzhou,gusu district
+China,beijing,dongcheng district,beijing指北京，直辖市，无需修改。dongcheng district指北京市东城区，直接返回beijing。将原输入市dongcheng district填充到地区。,beijing,beijing,dongcheng district
+China,shaanxi,shenmu,shaanxi指陕西，无需修改。shenmu指神木市，神木是县级市，所属地级市是榆林，返回yulin。将原输入市shenmu填充到地区。,shaanxi,yulin,shenmu
+China,sichuan,wuhou district,sichuan指四川，无需修改。wuhou district指成都市武侯区，成都为地级市，返回chengdu。将原输入市wuhou district填充到地区。,sichuan,chengdu,wuhou district
+China,anhui,yushan district,anhui指安徽，无需修改。yushan district信息不足以确定其归属哪个地级市，保持原样。,anhui,yushan district,null
+China,tianjin,nankai district,tianjin指天津，直辖市，无需修改。nankai district指天津市南开区，直接返回tianjin。将原输入市nankai district填充到地区。,tianjin,tianjin,nankai district
+China,fujian,huli district,fujian指福建，无需修改。huli district指厦门市湖里区，厦门是地级市，返回xiamen。将原输入市huli district填充到地区。,fujian,xiamen,huli district
+China,hubei,jiangxia district,hubei指湖北，无需修改。jiangxia district指湖北武汉的江夏区，属于武汉，武汉是地级市，返回wuhan。将原输入市jiangxia district填充到地区,hubei,wuhan,jiangxia district
+China,heilongjiang,harbin,heilongjiang指黑龙江，无需修改。harbin指黑龙江的哈尔滨，哈尔滨是直辖市，符合格式无需修改。输入没有提供地区名，填充为null。,heilongjiang,harbin,null
+China,sichuan,jinjiang district,sichuan指四川，无需修改。jinjiang district指四川成都的锦江区，属于成都，成都是地级市，返回chengdu。将原输入市jinjiang district填充到地区,sichuan,chengdu,jinjiang district
+China,shanghai,baoshan district,shanghai指上海，无需修改。baoshan district指上海的宝山区，上海是直辖市，返回shanghai。将原输入市baoshan district填充到地区,shanghai,shanghai,baoshan district
+China,jiangsu,jiangning district,jiangsu指江苏，无需修改。jiangning district指江苏南京的江宁区，属于南京，南京是地级市，返回nanjing。将原输入市jiangning district填充到地区,jiangsu,nanjing,jiangning district
+China,shaanxi,weiyang district,shaanxi指陕西，无需修改。weiyang district指陕西西安的未央区，属于西安，西安是地级市，返回xian。将原输入市weiyang district填充到地区,shaanxi,xian,weiyang district
+China,liaoning,shenyang,liaoning指辽宁，无需修改。shenyang指辽宁的沈阳，沈阳是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,liaoning,shenyang,null
+China,jiangsu,xiangcheng district,jiangsu指江苏，无需修改。xiangcheng district指江苏苏州的相城区，属于苏州，苏州是地级市，返回suzhou。将原输入市xiangcheng district填充到地区,jiangsu,suzhou,xiangcheng district
+China,jiangsu,xuanwu district,jiangsu指江苏，无需修改。xuanwu district指江苏南京的玄武区，属于南京，南京是地级市，返回nanjing。将原输入市xuanwu district填充到地区,jiangsu,nanjing,xuanwu district
+China,hebei,qiaoxi district,hebei指河北，无需修改。qiaoxi district指河北石家庄的桥西区，属于石家庄，石家庄是地级市，返回shijiazhuang。将原输入市qiaoxi district填充到地区,hebei,shijiazhuang,qiaoxi district
+China,guangdong,nanshan district,guangdong指广东，无需修改。nanshan district指广东深圳的南山区，属于深圳，深圳是地级市，返回shenzhen。将原输入市nanshan district填充到地区,guangdong,shenzhen,nanshan district
+China,chongqing,chongqing,chongqing指重庆，无需修改。chongqing是直辖市，符合格式无需修改。输入没有提供地区名，填充为null。,chongqing,chongqing,null
+China,guangdong,tianhe district,guangdong指广东，无需修改。tianhe district指广东广州的天河区，属于广州，广州是地级市，返回guangzhou。将原输入市tianhe district填充到地区,guangdong,guangzhou,tianhe district
+China,jiangxi,nankang district,jiangxi指江西，无需修改。nankang district指江西赣州的南康区，属于赣州，赣州是地级市，返回ganzhou。将原输入市nankang district填充到地区,jiangxi,ganzhou,nankang district
+China,zhejiang,hangzhou,zhejiang指浙江，无需修改。hangzhou指浙江的杭州，杭州是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,zhejiang,hangzhou,null
+China,jiangsu,wuzhong district,jiangsu指江苏，无需修改。wuzhong district指江苏苏州的吴中区，属于苏州，苏州是地级市，返回suzhou。将原输入市wuzhong district填充到地区,jiangsu,suzhou,wuzhong district
+China,zhejiang,shangcheng district,zhejiang指浙江，无需修改。shangcheng district指浙江杭州的上城区，属于杭州，杭州是地级市，返回hangzhou。将原输入市shangcheng district填充到地区,zhejiang,hangzhou,shangcheng district
+China,shaanxi,chang an district,shaanxi指陕西，无需修改。chang an district应为长安区，指陕西西安的长安区，属于西安，西安是地级市，返回xian。将原输入市chang an district填充到地区,shaanxi,xian,chang an district
+China,sichuan,qingyang district,sichuan指四川，无需修改。qingyang district指四川成都的青羊区，属于成都，成都是地级市，返回chengdu。将原输入市qingyang district填充到地区,sichuan,chengdu,qingyang district
+China,beijing,xicheng qu,beijing指北京，无需修改。xicheng qu指北京的西城区，北京是直辖市，返回beijing。将原输入市xicheng qu填充到地区,beijing,beijing,xicheng qu
+China,heilongjiang,xiangfang district,heilongjiang指黑龙江，无需修改。xiangfang district指黑龙江哈尔滨的香坊区，属于哈尔滨，哈尔滨是直辖市，返回harbin。将原输入市xiangfang district填充到地区,heilongjiang,harbin,xiangfang district
+China,shanghai,jing an district,shanghai指上海，无需修改。jing an district指上海的静安区，上海是直辖市，返回shanghai。将原输入市jing an district填充到地区,shanghai,shanghai,jing an district
+China,liaoning,shenbei new area,liaoning指辽宁，无需修改。shenbei new area指辽宁沈阳的沈北新区，属于沈阳，沈阳是地级市，返回shenyang。将原输入市shenbei new area填充到地区,liaoning,shenyang,shenbei new area
+China,tianjin,dongli district,tianjin指天津，无需修改。dongli district指天津的东丽区，天津是直辖市，返回tianjin。将原输入市dongli district填充到地区,tianjin,tianjin,dongli district
+China,guangdong,zhongshan,guangdong指广东，无需修改。zhongshan指广东的中山，中山是县级市，直接返回zhongshan。输入没有提供地区名，填充为null。,guangdong,zhongshan,null
+China,hubei,hongshan district,hubei指湖北，无需修改。hongshan district指湖北武汉的洪山区，属于武汉，武汉是地级市，返回wuhan。将原输入市hongshan district填充到地区,hubei,wuhan,hongshan district
+China,shaanxi,xi\u0027an,shaanxi指陕西，无需修改。xi'an指陕西的西安，西安是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,shaanxi,xian,null
+China,xinjiang uygur,saybag district,xinjiang uygur指新疆维吾尔自治区，无需修改。saybag district应为沙依巴克区，指新疆乌鲁木齐的沙依巴克区，属于乌鲁木齐，乌鲁木齐是地级市，返回wulumuqi。将原输入市saybag district填充到地区,xinjiang uygur,wulumuqi,saybag district
+China,fujian,jimei district,fujian指福建，无需修改。jimei district指福建厦门的集美区，属于厦门，厦门是地级市，返回xiamen。将原输入市jimei district填充到地区,fujian,xiamen,jimei district
+China,zhejiang,xiaoshan,zhejiang指浙江，无需修改。xiaoshan指浙江杭州的萧山区，属于杭州，杭州是地级市，返回hangzhou。将原输入市xiaoshan填充到地区,zhejiang,hangzhou,xiaoshan
+China,liaoning,shahekou district,liaoning指辽宁，无需修改。shahekou district指辽宁大连的沙河口区，属于大连，大连是地级市，返回dalian。将原输入市shahekou district填充到地区,liaoning,dalian,shahekou district
+China,jiangsu,huqiu district,jiangsu指江苏，无需修改。huqiu district指江苏苏州的虎丘区，属于苏州，苏州是地级市，返回suzhou。将原输入市huqiu district填充到地区,jiangsu,suzhou,huqiu district
+China,shaanxi,beilin district,shaanxi指陕西，无需修改。beilin district指陕西西安的碑林区，属于西安，西安是地级市，返回xian。将原输入市beilin district填充到地区,shaanxi,xian,beilin district
+China,guangxi zhuang,qingxiu district,guangxi zhuang指广西壮族自治区，无需修改。qingxiu district指广西南宁的青秀区，属于南宁，南宁是地级市，返回nanning。将原输入市qingxiu district填充到地区,guangxi zhuang,nanning,qingxiu district
+China,shandong,feicheng,shandong指山东，无需修改。feicheng指山东泰安的肥城市，肥城是县级市，所属地级市是taian。将原输入市feicheng填充到地区,shandong,taian,feicheng
+China,tianjin,binhai,tianjin指天津，无需修改。binhai指天津的滨海新区，天津是直辖市，返回tianjin。将原输入市binhai填充到地区,tianjin,tianjin,binhai
+China,chongqing,yuzhong district,chongqing指重庆，无需修改。yuzhong district指重庆的渝中区，重庆是直辖市，返回chongqing。将原输入市yuzhong district填充到地区,chongqing,chongqing,yuzhong district
+China,liaoning,ganjingzi district,liaoning指辽宁，无需修改。ganjingzi district指辽宁大连的甘井子区，属于大连，大连是地级市，返回dalian。将原输入市ganjingzi district填充到地区,liaoning,dalian,ganjingzi district
+China,jiangsu,taicang,jiangsu指江苏，无需修改。taicang指江苏苏州的太仓市，太仓是县级市，所属地级市是suzhou。将原输入市taicang填充到地区,jiangsu,suzhou,taicang
+China,hubei,echeng district,hubei指湖北，无需修改。echeng district指湖北鄂州的鄂城区，属于鄂州，鄂州是地级市，返回ezhou。将原输入市echeng district填充到地区,hubei,ezhou,echeng district
+China,zhejiang,yuhang district,zhejiang指浙江，无需修改。yuhang district指浙江杭州的余杭区，属于杭州，杭州是地级市，返回hangzhou。将原输入市yuhang district填充到地区,zhejiang,hangzhou,yuhang district
+China,sichuan,chengdu,sichuan指四川，无需修改。chengdu指四川的成都，成都是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,sichuan,chengdu,null
+China,hebei,huanghua,hebei指河北，无需修改。huanghua指河北沧州的黄骅市，黄骅是县级市，所属地级市是cangzhou。将原输入市huanghua填充到地区,hebei,cangzhou,huanghua
+China,guangdong,longhua district,guangdong指广东，无需修改。longhua district指广东深圳的龙华区，属于深圳，深圳是地级市，返回shenzhen。将原输入市longhua district填充到地区,guangdong,shenzhen,longhua district
+China,fujian,chengxiang district,fujian指福建，无需修改。chengxiang district指福建莆田的城厢区，属于莆田，莆田是地级市，返回putian。将原输入市chengxiang district填充到地区,fujian,putian,chengxiang district
+China,hainan,meilan district,hainan指海南，无需修改。meilan district指海南海口的美兰区，属于海口，海口是地级市，返回haikou。将原输入市meilan district填充到地区,hainan,haikou,meilan district
+China,hubei,caidian district,hubei指湖北，无需修改。caidian district指湖北武汉的蔡甸区，属于武汉，武汉是地级市，返回wuhan。将原输入市caidian district填充到地区,hubei,wuhan,caidian district
+China,shanghai,minhang district,shanghai指上海，无需修改。minhang district指上海的闵行区，上海是直辖市，返回shanghai。将原输入市minhang district填充到地区,shanghai,shanghai,minhang district
+China,yunnan,guandu district,yunnan指云南，无需修改。guandu district指云南昆明的官渡区，属于昆明，昆明是地级市，返回kunming。将原输入市guandu district填充到地区,yunnan,kunming,guandu district
+China,yunnan,mangshi,yunnan指云南，无需修改。mangshi指云南德宏的芒市，芒市是县级市，所属地级市是dehong。将原输入市mangshi填充到地区,yunnan,dehong,mangshi
+China,liaoning,xigang district,liaoning指辽宁，无需修改。xigang district指大连市的西岗区，返回dalian。将原输入市xigang district填充到地区,liaoning,dalian,xigang district
+China,hubei,maojian district,hubei指湖北，无需修改。maojian district指十堰市的茅箭区，返回shiyan。将原输入市maojian district填充到地区,hubei,shiyan,maojian district
+China,No Data,No Data,省和市均为No Data，无法识别或推断信息，保持原样,No Data,No Data,null
+China,hubei,dongxihu district,hubei指湖北，无需修改。dongxihu district指武汉市的东西湖区，返回wuhan。将原输入市dongxihu district填充到地区,hubei,wuhan,dongxihu district
+China,jiangxi,nanchang,jiangxi指江西，无需修改。nanchang是南昌市，符合格式无需修改。输入没有提供地区名，填充为null,jiangxi,nanchang,null
+China,tianjin,hebei district,tianjin指天津，无需修改。hebei district指天津市的河北区，直接使用tianjin作为市名。将原输入市hebei district填充到地区,tianjin,tianjin,hebei district
+China,anhui,langya district,anhui指安徽，无需修改。langya district指滁州市的琅琊区，返回chuzhou。将原输入市langya district填充到地区,anhui,chuzhou,langya district
+China,zhejiang,xihu district,zhejiang指浙江，无需修改。xihu district指杭州市的西湖区，返回hangzhou。将原输入市xihu district填充到地区,zhejiang,hangzhou,xihu district
+China,zhejiang,xintang,zhejiang指浙江，无需修改。xintang是指绍兴市下的乡镇级别地名，但更准确的地级市归属不明，保持原样,zhejiang,xintang,null
+China,anhui,jinghu district,anhui指安徽，无需修改。jinghu district指芜湖市的镜湖区，返回wuhu。将原输入市jinghu district填充到地区,anhui,wuhu,jinghu district
+China,fujian,gulou district,fujian指福建，无需修改。gulou district指福州市的鼓楼区，返回fuzhou。将原输入市gulou district填充到地区,fujian,fuzhou,gulou district
+China,shanghai,hongkou district,shanghai指上海，无需修改。hongkou district指上海市的虹口区，直接使用shanghai作为市名。将原输入市hongkou district填充到地区,shanghai,shanghai,hongkou district
+China,shandong,wendeng district,shandong指山东，无需修改。wendeng district指威海市的文登区，返回weihai。将原输入市wendeng district填充到地区,shandong,weihai,wendeng district
+China,shandong,chengyang district,shandong指山东，无需修改。chengyang district指青岛市的城阳区，返回qingdao。将原输入市chengyang district填充到地区,shandong,qingdao,chengyang district
+China,shanghai,huangpu district,shanghai指上海，无需修改。huangpu district指上海市的黄浦区，直接使用shanghai作为市名。将原输入市huangpu district填充到地区,shanghai,shanghai,huangpu district
+China,zhejiang,jinhua,zhejiang指浙江，无需修改。jinhua是金华市，符合格式无需修改。输入没有提供地区名，填充为null,zhejiang,jinhua,null
+China,shanxi,yuci district,shanxi指山西，无需修改。yuci district指晋中市的榆次区，返回jinzhong。将原输入市yuci district填充到地区,shanxi,jinzhong,yuci district
+China,guangdong,baiyun district,guangdong指广东，无需修改。baiyun district指广州市的白云区，返回guangzhou。将原输入市baiyun district填充到地区,guangdong,guangzhou,baiyun district
+China,shanxi,pingcheng district,shanxi指山西，无需修改。pingcheng district指大同市的平城区，返回datong。将原输入市pingcheng district填充到地区,shanxi,datong,pingcheng district
+China,jiangsu,xuzhou,jiangsu指江苏，无需修改。xuzhou是徐州市，符合格式无需修改。输入没有提供地区名，填充为null,jiangsu,xuzhou,null
+China,fujian,luoyuan county,fujian指福建，无需修改。luoyuan county指宁德市的罗源县，返回ningde。将原输入市luoyuan county填充到地区,fujian,ningde,luoyuan county
+China,chongqing,jiulongpo district,chongqing指重庆，无需修改。jiulongpo district指重庆市的九龙坡区，直接使用chongqing作为市名。将原输入市jiulongpo district填充到地区,chongqing,chongqing,jiulongpo district
+China,chongqing,fengdu,chongqing指重庆，无需修改。fengdu指丰都县，属于重庆市，直接使用chongqing作为市名。将原输入市fengdu填充到地区,chongqing,chongqing,fengdu
+China,sichuan,dayi county,sichuan指四川，无需修改。dayi county指成都市的大邑县，返回chengdu。将原输入市dayi county填充到地区,sichuan,chengdu,dayi county
+China,liaoning,tiedong district,liaoning指辽宁，无需修改。tiedong district指鞍山市的铁东区，返回anshan。将原输入市tiedong district填充到地区,liaoning,anshan,tiedong district
+China,henan,jinshui district,henan指河南，无需修改。jinshui district指郑州市的金水区，返回zhengzhou。将原输入市jinshui district填充到地区,henan,zhengzhou,jinshui district
+China,jiangsu,yixing,jiangsu指江苏，无需修改。yixing是宜兴市，符合格式无需修改。输入没有提供地区名，填充为null,jiangsu,yixing,null
+China,inner mongolia,ud district,inner mongolia指内蒙古，无需修改。ud district指乌兰察布市的集宁区，返回wulanchabu。将原输入市ud district填充到地区,inner mongolia,wulanchabu,ud district
+China,shanghai,putuo district,shanghai指上海，无需修改。putuo district指上海市的普陀区，直接使用shanghai作为市名。将原输入市putuo district填充到地区,shanghai,shanghai,putuo district
+China,shandong,lixia district,shandong指山东，无需修改。lixia district指济南市的历下区，返回jinan。将原输入市lixia district填充到地区,shandong,jinan,lixia district
+China,guangdong,duanzhou district,guangdong指广东，无需修改。duanzhou district指肇庆市的端州区，返回zhaoqing。将原输入市duanzhou district填充到地区,guangdong,zhaoqing,duanzhou district
+China,inner mongolia,hongshan district,inner mongolia指内蒙古，无需修改。hongshan district指赤峰市的红山区，返回chifeng。将原输入市hongshan district填充到地区,inner mongolia,chifeng,hongshan district
+China,shaanxi,guodu,shaanxi指陕西，无需修改。guodu不是一个明确可识别的地区名，保持原样,shaanxi,guodu,null
+China,jiangsu,luhe,jiangsu指江苏，无需修改。luhe现在归南京市管理，返回nanjing。将原输入市luhe填充到地区,jiangsu,nanjing,luhe
+China,jiangsu,yuhuatai district,jiangsu指江苏，无需修改。yuhuatai district指南京市的雨花台区，返回nanjing。将原输入市yuhuatai district填充到地区,jiangsu,nanjing,yuhuatai district
+China,beijing,shijingshan district,beijing指北京，无需修改。shijingshan district指北京市的石景山区，直接使用beijing作为市名。将原输入市shijingshan district填充到地区,beijing,beijing,shijingshan district
+China,shanxi,yaodu district,shanxi指山西，无需修改。yaodu district指临汾市的尧都区，返回linfen。将原输入市yaodu district填充到地区,shanxi,linfen,yaodu district
+China,shanghai,qingpu district,shanghai指上海，无需修改。qingpu district指上海市的青浦区，直接使用shanghai作为市名。将原输入市qingpu district填充到地区,shanghai,shanghai,qingpu district
+China,guangdong,longgang,guangdong指广东，无需修改。longgang指深圳市的龙岗区，返回shenzhen。将原输入市longgang填充到地区,guangdong,shenzhen,longgang
+China,anhui,jiujiang district,anhui指安徽，无需修改。jiujiang district指铜陵市的郊区，返回tongling。将原输入市jiujiang district填充到地区,anhui,tongling,jiujiang district
+China,tianjin,hexi district,tianjin指天津，无需修改。hexi district指天津市的河西区，直接使用tianjin作为市名。将原输入市hexi district填充到地区,tianjin,tianjin,hexi district
+China,shanghai,changning district,shanghai指上海，无需修改。changning district指上海市的长宁区，直接使用shanghai作为市名。将原输入市changning district填充到地区,shanghai,shanghai,changning district
+China,guangdong,shunde district,guangdong指广东，无需修改。shunde district指佛山市的顺德区，返回foshan。将原输入市shunde district填充到地区,guangdong,foshan,shunde district
+China,henan,huiji district,henan指河南，无需修改。huiji district指许昌市的魏都区，返回xuchang。将原输入市huiji district填充到地区,henan,xuchang,huiji district
+China,henan,erqi district,henan指河南，无需修改。erqi district指郑州市的二七区，返回zhengzhou。将原输入市erqi district填充到地区,henan,zhengzhou,erqi district
+China,anhui,wuhu,anhui指安徽，无需修改。wuhu是芜湖市，符合格式无需修改。输入没有提供地区名，填充为null,anhui,wuhu,null
+China,jiangsu,nanjing,jiangsu指江苏，无需修改。nanjing是南京市，符合格式无需修改。输入没有提供地区名，填充为null,jiangsu,nanjing,null
+China,guangdong,huicheng district,guangdong指广东，无需修改。huicheng district指惠州市的惠城区，返回huizhou。将原输入市huicheng district填充到地区,guangdong,huizhou,huicheng district
+China,sichuan,jinniu district,sichuan指四川，无需修改。jinniu district指成都市的金牛区，返回chengdu。将原输入市jinniu district填充到地区,sichuan,chengdu,jinniu district
+China,sichuan,chenghua district,sichuan指四川，无需修改。chenghua district指成都市的成华区，返回chengdu。将原输入市chenghua district填充到地区,sichuan,chengdu,chenghua district
+China,guangdong,pingshan district,guangdong指广东，无需修改。pingshan district指广东深圳的坪山区，属于深圳，深圳是地级市，返回shenzhen。将原输入市pingshan district输入填充到地区,guangdong,shenzhen,pingshan district
+China,hunan,daxiang district,hunan指湖南，无需修改。daxiang district指湖南邵阳的大祥区，邵阳是地级市，返回shaoyang。将原输入市daxiang district输入填充到地区,hunan,shaoyang,daxiang district
+China,hebei,xianghe,hebei是河北的英文，符合格式无需修改。xianghe是指河北的香河县，隶属于廊坊市，返回langfang。将原输入市xianghe输入填充到地区,hebei,langfang,xianghe
+China,shanxi,yingze district,shanxi指山西，无需修改。yingze district指山西太原的迎泽区，太原是地级市，返回taiyuan。将原输入市yingze district输入填充到地区,shanxi,taiyuan,yingze district
+China,xinjiang uygur,artux,xinjiang uygur指新疆维吾尔自治区，无需修改。artux指新疆的阿图什市，阿图什是县级市，所属地级行政区是克孜勒苏柯尔克孜自治州，但由于没有直接对应的地级市名称，保持原样,xinjiang uygur,artux,null
+China,liaoning,heping district,liaoning指辽宁，无需修改。heping district指辽宁抚顺的和平区，抚顺是地级市，返回fushun。将原输入市heping district输入填充到地区,liaoning,fushun,heping district
+China,anhui,wanzhi district,anhui指安徽，无需修改。wanzhi district无法明确对应安徽省内的任何具体地名，返回原输入,anhui,wanzhi district,null
+China,fujian,minhou county,fujian指福建，无需修改。minhou county指福建福州的闽侯县，福州是地级市，返回fuzhou。将原输入市minhou county输入填充到地区,fujian,fuzhou,minhou county
+China,tianjin,tianjin,tianjin指天津，直辖市，无需修改。tianjin为直辖市本身，无需更改,tianjin,tianjin,null
+China,fujian,jin an district,fujian指福建，无需修改。jin an district指福建福州的晋安区，福州是地级市，返回fuzhou。将原输入市jin an district输入填充到地区,fujian,fuzhou,jin an district
+China,liaoning,yuhong district,liaoning指辽宁，无需修改。yuhong district指辽宁沈阳的于洪区，沈阳是地级市，返回shenyang。将原输入市yuhong district输入填充到地区,liaoning,shenyang,yuhong district
+China,tibet,karuo district,tibet指西藏，无需修改。karuo district指西藏昌都的卡若区，昌都是地级市，返回changdu。将原输入市karuo district输入填充到地区,tibet,changdu,karuo district
+China,sichuan,cuiping district,sichuan指四川，无需修改。cuiping district指四川宜宾的翠屏区，宜宾是地级市，返回yibin。将原输入市cuiping district输入填充到地区,sichuan,yibin,cuiping district
+China,shandong,zhifu district,shandong指山东，无需修改。zhifu district指山东烟台的芝罘区，烟台是地级市，返回yantai。将原输入市zhifu district输入填充到地区,shandong,yantai,zhifu district
+China,shandong,penglai district,shandong指山东，无需修改。penglai district指山东烟台的蓬莱区，烟台是地级市，返回yantai。将原输入市penglai district输入填充到地区,shandong,yantai,penglai district
+China,heilongjiang,nangang district,heilongjiang指黑龙江，无需修改。nangang district指黑龙江哈尔滨的南岗区，哈尔滨是地级市，返回haerbin。将原输入市nangang district输入填充到地区,heilongjiang,haerbin,nangang district
+China,guangxi zhuang,jiangnan district,guangxi zhuang指广西壮族自治区，无需修改。jiangnan district指广西南宁的江南区，南宁是地级市，返回nanning。将原输入市jiangnan district输入填充到地区,guangxi zhuang,nanning,jiangnan district
+China,fujian,siming district,fujian指福建，无需修改。siming district指福建厦门的思明区，厦门是地级市，返回xiamen。将原输入市siming district输入填充到地区,fujian,xiamen,siming district
+China,shanghai,xuhui district,shanghai指上海，直辖市，无需修改。xuhui district指上海的徐汇区,shanghai,shanghai,xuhui district
+China,guangdong,nanhai district,guangdong指广东，无需修改。nanhai district指广东佛山的南海区，佛山是地级市，返回foshan。将原输入市nanhai district输入填充到地区,guangdong,foshan,nanhai district
+China,shandong,jinan,shandong指山东，无需修改。jinan是山东省会济南，无需更改,shandong,jinan,null
+China,shandong,licheng district,shandong指山东，无需修改。licheng district指山东济南的历城区，济南是地级市，返回jinan。将原输入市licheng district输入填充到地区,shandong,jinan,licheng district
+China,jilin,changchun,jilin指吉林，无需修改。changchun是吉林省会长春，无需更改,jilin,changchun,null
+China,chongqing,yubei qu,chongqing指重庆，直辖市，无需修改。yubei qu指重庆的渝北区，去除多余空格和qu后缀，返回yubei,chongqing,chongqing,yubei
+China,jiangsu,yangzhou,jiangsu指江苏，无需修改。yangzhou指江苏扬州，符合格式无需修改。输入没有提供地区名，填充为null,jiangsu,yangzhou,null
+China,guangdong,zhuhai,guangdong指广东，无需修改。zhuhai指广东珠海，符合格式无需修改。输入没有提供地区名，填充为null,guangdong,zhuhai,null
+China,guangdong,xiangzhou district,guangdong指广东，无需修改。xiangzhou district指广东珠海的香洲区，珠海是地级市，返回zhuhai。将原输入市xiangzhou district输入填充到地区,guangdong,zhuhai,xiangzhou district
+China,liaoning,dalian,liaoning指辽宁，无需修改。dalian指辽宁大连，符合格式无需修改。输入没有提供地区名，填充为null,liaoning,dalian,null
+China,beijing,No Data,beijing指北京，直辖市，无需修改。No Data无法识别，返回原输入,beijing,No Data,null
+China,fujian,taijiang district,fujian指福建，无需修改。taijiang district指福建福州的台江区，福州是地级市，返回fuzhou。将原输入市taijiang district输入填充到地区,fujian,fuzhou,taijiang district
+China,hubei,hanyang,hubei指湖北，无需修改。hanyang指湖北武汉的汉阳区，武汉是地级市，返回wuhan。将原输入市hanyang输入填充到地区,hubei,wuhan,hanyang
+China,yunnan,kunming,yunnan指云南，无需修改。kunming指云南昆明，符合格式无需修改。输入没有提供地区名，填充为null,yunnan,kunming,null
+China,jiangsu,gulou district,jiangsu指江苏，无需修改。gulou district指江苏南京的鼓楼区，南京是地级市，返回nanjing。将原输入市gulou district输入填充到地区,jiangsu,nanjing,gulou district
+China,shanghai,jing\u0027an district,shanghai指上海，直辖市，无需修改。jing'an district指上海的静安区，去除多余符号后返回jingan,shanghai,shanghai,jingan
+China,zhejiang,gongshu district,zhejiang指浙江，无需修改。gongshu district指浙江杭州的拱墅区，杭州是地级市，返回hangzhou。将原输入市gongshu district输入填充到地区,zhejiang,hangzhou,gongshu district
+China,beijing,xibeiwang zhen,beijing指北京，直辖市，无需修改。xibeiwang zhen指北京海淀区的西北旺镇，将原输入市xibeiwang zhen输入填充到地区,beijing,beijing,xibeiwang zhen
+China,guangdong,huizhou,guangdong指广东，无需修改。huizhou指广东惠州，符合格式无需修改。输入没有提供地区名，填充为null,guangdong,huizhou,null
+China,sichuan,neijiang,sichuan指四川，无需修改。neijiang指四川内江，符合格式无需修改。输入没有提供地区名，填充为null,sichuan,neijiang,null
+China,jiangxi,xinjian district,jiangxi指江西，无需修改。xinjian district指江西南昌的新建区，南昌是地级市，返回nanchang。将原输入市xinjian district输入填充到地区,jiangxi,nanchang,xinjian district
+China,jiangsu,qinhuai district,jiangsu指江苏，无需修改。qinhuai district指江苏南京的秦淮区，南京是地级市，返回nanjing。将原输入市qinhuai district输入填充到地区,jiangsu,nanjing,qinhuai district
+China,hunan,yuelu district,hunan指湖南，无需修改。yuelu district指湖南长沙的岳麓区，长沙是地级市，返回changsha。将原输入市yuelu district输入填充到地区,hunan,changsha,yuelu district
+China,shaanxi,xi an,shaanxi指陕西，无需修改。xi an指陕西西安，符合格式无需修改。输入没有提供地区名，填充为null,shaanxi,xian,null
+China,fujian,longyan,fujian指福建，无需修改。longyan指福建龙岩，符合格式无需修改。输入没有提供地区名，填充为null,fujian,longyan,null
+China,hubei,jiangxia qu,hubei指湖北，无需修改。jiangxia qu指湖北武汉的江夏区，武汉是地级市，返回wuhan。将原输入市jiangxia qu输入填充到地区,hubei,wuhan,jiangxia qu
+China,jiangsu,binhu district,jiangsu指江苏，无需修改。binhu district指江苏无锡的滨湖区，无锡是地级市，返回wuxi。将原输入市binhu district输入填充到地区,jiangsu,wuxi,binhu district
+China,shandong,tengzhou,shandong指山东，无需修改。tengzhou指山东枣庄的滕州市，枣庄是地级市，返回zaozhuang。将原输入市tengzhou输入填充到地区,shandong,zaozhuang,tengzhou
+China,xinjiang uygur,ürümqi county,xinjiang uygur指新疆维吾尔自治区，无需修改。ürümqi county指乌鲁木齐县，乌鲁木齐是地级市，返回wulumuqi。将原输入市ürümqi county输入填充到地区,xinjiang uygur,wulumuqi,ürümqi county
+China,shandong,qingdao,shandong指山东，无需修改。qingdao指山东青岛，符合格式无需修改。输入没有提供地区名，填充为null,shandong,qingdao,null
+China,guangdong,huangpu,guangdong指广东，无需修改。huangpu指广东广州的黄埔区，广州是地级市，返回guangzhou。将原输入市huangpu输入填充到地区,guangdong,guangzhou,huangpu
+China,henan,zhengzhou,henan指河南，无需修改。zhengzhou指河南郑州，符合格式无需修改。输入没有提供地区名，填充为null,henan,zhengzhou,null
+China,zhejiang,kecheng district,zhejiang指浙江，无需修改。kecheng district指浙江衢州的柯城区，属于衢州，衢州是地级市，返回quzhou。将原输入市kecheng district填充到地区,zhejiang,quzhou,kecheng district
+China,sichuan,shuangliu,sichuan指四川，无需修改。shuangliu指四川的双流区，双流区属于成都，成都是地级市，返回chengdu。将原输入市shuangliu填充到地区,sichuan,chengdu,shuangliu
+China,jiangsu,wuxi,jiangsu指江苏，无需修改。wuxi指江苏的无锡，无锡是地级市，符合格式无需修改。输入没有提供地区名，填充为null,jiangsu,wuxi,null
+China,hubei,tianhe,hubei指湖北，无需修改。tianhe指湖北的天河街道，天河街道属于武汉，武汉是地级市，返回wuhan。将原输入市tianhe填充到地区,hubei,wuhan,tianhe
+China,shanghai,jiading district,shanghai指上海，无需修改。jiading district指上海的嘉定区，嘉定区属于上海市，返回shanghai。将原输入市jiading district填充到地区,shanghai,shanghai,jiading district
+China,henan,xinxian county,henan指河南，无需修改。xinxian county指河南的新县，新县属于信阳，信阳是地级市，返回xinyang。将原输入市xinxian county填充到地区,henan,xinyang,xinxian county
+China,fujian,xiamen,fujian指福建，无需修改。xiamen指福建的厦门，厦门是地级市，符合格式无需修改。输入没有提供地区名，填充为null,fujian,xiamen,null
+China,zhejiang,yinzhou district,zhejiang指浙江，无需修改。yinzhou district指浙江宁波的鄞州区，鄞州区属于宁波，宁波是地级市，返回ningbo。将原输入市yinzhou district填充到地区,zhejiang,ningbo,yinzhou district
+China,yunnan,chenggong district,yunnan指云南，无需修改。chenggong district指云南昆明的呈贡区，呈贡区属于昆明，昆明是地级市，返回kunming。将原输入市chenggong district填充到地区,yunnan,kunming,chenggong district
+China,guangdong,liaobuzhen,guangdong指广东，无需修改。liaobuzhen无法确定具体位置，返回原输入,guangdong,liaobuzhen,null
+China,guangdong,qingcheng,guangdong指广东，无需修改。qingcheng指广东的清城区，清城区属于清远，清远是地级市，返回qingyuan。将原输入市qingcheng填充到地区,guangdong,qingyuan,qingcheng
+China,henan,tianpuxiang,henan指河南，无需修改。tianpuxiang无法确定具体位置，返回原输入,henan,tianpuxiang,null
+China,chongqing,yongchang,chongqing指重庆，无需修改。yongchang无法确定具体位置，返回原输入,chongqing,yongchang,null
+China,zhejiang,dongqianhuzhen,zhejiang指浙江，无需修改。dongqianhuzhen指浙江宁波的东钱湖镇，东钱湖镇属于宁波，宁波是地级市，返回ningbo。将原输入市dongqianhuzhen填充到地区,zhejiang,ningbo,dongqianhuzhen
+China,guizhou,guiyang,guizhou指贵州，无需修改。guiyang指贵州的贵阳，贵阳是地级市，符合格式无需修改。输入没有提供地区名，填充为null,guizhou,guiyang,null
+China,jiangsu,weitingzhen,jiangsu指江苏，无需修改。weitingzhen无法确定具体位置，返回原输入,jiangsu,weitingzhen,null
+China,anhui,baohe district,anhui指安徽，无需修改。baohe district指安徽合肥的包河区，包河区属于合肥，合肥是地级市，返回hefei。将原输入市baohe district填充到地区,anhui,hefei,baohe district
+China,fujian,fuzhou,fujian指福建，无需修改。fuzhou指福建的福州，福州是地级市，符合格式无需修改。输入没有提供地区名，填充为null,fujian,fuzhou,null
+China,shanghai,yangpu district,shanghai指上海，无需修改。yangpu district指上海的杨浦区，杨浦区属于上海市，返回shanghai。将原输入市yangpu district填充到地区,shanghai,shanghai,yangpu district
+China,inner mongolia,baotou,inner mongolia指内蒙古，无需修改。baotou指内蒙古的包头，包头是地级市，符合格式无需修改。输入没有提供地区名，填充为null,inner mongolia,baotou,null
+China,guangdong,foshan,guangdong指广东，无需修改。foshan指广东的佛山，佛山是地级市，符合格式无需修改。输入没有提供地区名，填充为null,guangdong,foshan,null
+China,zhejiang,ningbo,zhejiang指浙江，无需修改。ningbo指浙江的宁波，宁波是地级市，符合格式无需修改。输入没有提供地区名，填充为null,zhejiang,ningbo,null
+China,zhejiang,quzhou,zhejiang指浙江，无需修改。quzhou指浙江的衢州，衢州是地级市，符合格式无需修改。输入没有提供地区名，填充为null,zhejiang,quzhou,null
+China,jiangsu,nantong,jiangsu指江苏，无需修改。nantong指江苏的南通，南通是地级市，符合格式无需修改。输入没有提供地区名，填充为null,jiangsu,nantong,null
+China,fujian,maxiangzhen,fujian指福建，无需修改。maxiangzhen无法确定具体位置，返回原输入,fujian,maxiangzhen,null
+China,guangdong,shiyan,guangdong指广东，无需修改。shiyan指广东深圳的石岩街道，石岩街道属于深圳，深圳是地级市，返回shenzhen。将原输入市shiyan填充到地区,guangdong,shenzhen,shiyan
+China,jiangsu,taizhou,jiangsu指江苏，无需修改。taizhou指江苏的泰州，泰州是地级市，符合格式无需修改。输入没有提供地区名，填充为null,jiangsu,taizhou,null
+China,guangdong,nanshan qu,guangdong指广东，无需修改。nanshan qu指广东深圳的南山区，南山区属于深圳，深圳是地级市，返回shenzhen。将原输入市nanshan qu填充到地区,guangdong,shenzhen,nanshan qu
+China,ningxia hui,yinchuan,ningxia hui指宁夏回族自治区，无需修改。yinchuan指宁夏的银川，银川是地级市，符合格式无需修改。输入没有提供地区名，填充为null,ningxia hui,yinchuan,null
+China,shaanxi,xixiang,shaanxi指陕西，无需修改。xixiang无法确定具体位置，返回原输入,shaanxi,xixiang,null
+China,beijing,xicheng district,beijing指北京，无需修改。xicheng district指北京的西城区，西城区属于北京市，返回beijing。将原输入市xicheng district填充到地区,beijing,beijing,xicheng district
+China,anhui,yaohai district,anhui指安徽，无需修改。yaohai district指安徽合肥的瑶海区，瑶海区属于合肥，合肥是地级市，返回hefei。将原输入市yaohai district填充到地区,anhui,hefei,yaohai district
+China,guangdong,nansha district,guangdong指广东，无需修改。nansha district指广东广州的南沙区，南沙区属于广州，广州是地级市，返回guangzhou。将原输入市nansha district填充到地区,guangdong,guangzhou,nansha district
+China,sichuan,No Data,sichuan指四川，无需修改。no data无法识别，返回原输入,sichuan,no data,null
+China,beijing,fengtai district,beijing指北京，无需修改。fengtai district指北京的丰台区，丰台区属于北京市，返回beijing。将原输入市fengtai district填充到地区,beijing,beijing,fengtai district
+China,guangdong,xixiang,guangdong指广东，无需修改。xixiang指广东深圳的西乡街道，西乡街道属于深圳，深圳是地级市，返回shenzhen。将原输入市xixiang填充到地区,guangdong,shenzhen,xixiang
+China,guangdong,huadongzhen,guangdong指广东，无需修改。huadongzhen无法确定具体位置，返回原输入,guangdong,huadongzhen,null
+China,zhejiang,linhai,zhejiang指浙江，无需修改。linhai指浙江的临海，临海是县级市，所属地级市是台州，返回taizhou。将原输入市linhai填充到地区,zhejiang,taizhou,linhai
+China,hubei,daye,hubei指湖北，无需修改。daye指湖北的大冶市，大冶市是县级市，所属地级市是黄石，返回huangshi。将原输入市daye填充到地区,hubei,huangshi,daye
+China,beijing,weishanzhuangzhen,beijing指北京，无需修改。weishanzhuangzhen无法确定具体位置，返回原输入,beijing,weishanzhuangzhen,null
+China,shandong,xuecheng district,shandong指山东，无需修改。xuecheng district指山东枣庄的薛城区，薛城区属于枣庄，枣庄是地级市，返回zaozhuang。将原输入市xuecheng district填充到地区,shandong,zaozhuang,xuecheng district
+China,jiangsu,guangling district,jiangsu指江苏，无需修改。guangling district指江苏扬州的广陵区，广陵区属于扬州，扬州是地级市，返回yangzhou。将原输入市guangling district填充到地区,jiangsu,yangzhou,guangling district
+China,xinjiang uygur,urumqi,xinjiang uygur指新疆维吾尔自治区，无需修改。urumqi指新疆的乌鲁木齐，乌鲁木齐是地级市，符合格式无需修改。输入没有提供地区名，填充为null,xinjiang uygur,urumqi,null
+China,guangdong,pengjiang district,guangdong指广东，无需修改。pengjiang district指广东江门的蓬江区，蓬江区属于江门，江门是地级市，返回jiangmen。将原输入市pengjiang district填充到地区,guangdong,jiangmen,pengjiang district
+China,guizhou,dongfengzhen guiyang,guizhou指贵州，无需修改。dongfengzhen guiyang指贵州贵阳的东风镇，东风镇属于贵阳，贵阳是地级市，返回guiyang。将原输入市dongfengzhen guiyang填充到地区,guizhou,guiyang,dongfengzhen guiyang
+China,inner mongolia,xincheng district,inner mongolia指内蒙古，无需修改。xincheng district指内蒙古呼和浩特的新城区，新城区属于呼和浩特，呼和浩特是地级市，返回huhehaote。将原输入市xincheng district填充到地区,inner mongolia,huhehaote,xincheng district
+China,liaoning,panjin,liaoning指辽宁，无需修改。panjin指辽宁的盘锦，盘锦是地级市，符合格式无需修改。输入没有提供地区名，填充为null,liaoning,panjin,null
+China,shandong,shizhong district,shandong指山东，无需修改。shizhong district指山东济南的市中区，市中区属于济南，济南是地级市，返回jinan。将原输入市shizhong district填充到地区,shandong,jinan,shizhong district
+China,jiangsu,yunlong district,jiangsu指江苏，无需修改。yunlong district指江苏徐州的云龙区，云龙区属于徐州，徐州是地级市，返回xuzhou。将原输入市yunlong district填充到地区,jiangsu,xuzhou,yunlong district
+China,zhejiang,yueqing,zhejiang指浙江，无需修改。yueqing指浙江的乐清，乐清是县级市，所属地级市是温州，返回wenzhou。将原输入市yueqing填充到地区,zhejiang,wenzhou,yueqing
+China,jiangsu,jianye district,jiangsu指江苏，无需修改。jianye district指江苏南京的建邺区，属于南京，南京是地级市，返回nanjing。将原输入市jianye district输入填充到地区,jiangsu,nanjing,jianye district
+China,shandong,shinan district,shandong指山东，无需修改。shinan district指山东青岛的市南区，属于青岛，青岛是地级市，返回qingdao。将原输入市shinan district输入填充到地区,shandong,qingdao,shinan district
+China,hunan,changsha,hunan指湖南，无需修改。changsha指长沙，长沙是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,hunan,changsha,null
+China,jiangxi,ji\u0027an,jiangxi指江西，无需修改。ji'an指吉安，吉安是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,jiangxi,jian,null
+China,hubei,jingmen,hubei指湖北，无需修改。jingmen指荆门，荆门是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,hubei,jingmen,null
+China,guangdong,nangang,guangdong指广东，无需修改。nangang在广东省内无法明确对应到某个具体的市或区县，保留原始输入。,guangdong,nangang,null
+China,shaanxi,hanzhong,shaanxi指陕西，无需修改。hanzhong指汉中，汉中是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,shaanxi,hanzhong,null
+China,inner mongolia,saihan district,inner mongolia指内蒙古，无需修改。saihan district指呼和浩特的赛罕区，属于呼和浩特，呼和浩特是地级市，返回huhehaote。将原输入市saihan district输入填充到地区,inner mongolia,huhehaote,saihan district
+China,shanghai,jiangwanzhen,shanghai指上海，无需修改。jiangwanzhen在上海找不到对应的区县，保持原始输入。,shanghai,jiangwanzhen,null
+China,sichuan,deyang,sichuan指四川，无需修改。deyang指德阳，德阳是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,sichuan,deyang,null
+China,inner mongolia,xuejiawan,inner mongolia指内蒙古，xuejiawan在内蒙古自治区内无法明确对应到某个具体的市或区县，保留原始输入。,inner mongolia,xuejiawan,null
+China,shandong,dongying,shandong指山东，无需修改。dongying指东营，东营是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,shandong,dongying,null
+China,heilongjiang,shuangyashan,heilongjiang指黑龙江，无需修改。shuangyashan指双鸭山，双鸭山是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,heilongjiang,shuangyashan,null
+China,henan,fugou,henan指河南，无需修改。fugou指扶沟县，隶属于周口市，返回zhoukou。将原输入市fugou输入填充到地区,henan,zhoukou,fugou
+China,zhejiang,wenzhou,zhejiang指浙江，无需修改。wenzhou指温州，温州是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,zhejiang,wenzhou,null
+China,shaanxi,yan\u0027an,shaanxi指陕西，无需修改。yan'an指延安，延安是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,shaanxi,yanan,null
+China,zhejiang,yiwu,zhejiang指浙江，无需修改。yiwu指义乌，义乌是县级市，隶属于金华市，返回jinhua。将原输入市yiwu输入填充到地区,zhejiang,jinhua,yiwu
+China,henan,guancheng hui district,henan指河南，无需修改。guancheng hui district指郑州市的管城回族区，属于郑州，郑州是地级市，返回zhengzhou。将原输入市guancheng hui district输入填充到地区,henan,zhengzhou,guancheng hui district
+China,beijing,fangshan district,beijing指北京，无需修改。fangshan district指北京市的房山区，属于北京，北京是直辖市，返回beijing。将原输入市fangshan district输入填充到地区,beijing,beijing,fangshan district
+China,guangdong,dali,guangdong指广东，无需修改。dali在广东省内无法明确对应到某个具体的市或区县，保留原始输入。,guangdong,dali,null
+China,sichuan,longquanyi district,sichuan指四川，无需修改。longquanyi district指成都市的龙泉驿区，属于成都，成都是地级市，返回chengdu。将原输入市longquanyi district输入填充到地区,sichuan,chengdu,longquanyi district
+China,shanghai,songjiang district,shanghai指上海，无需修改。songjiang district指上海市的松江区，属于上海，上海是直辖市，返回shanghai。将原输入市songjiang district输入填充到地区,shanghai,shanghai,songjiang district
+China,qinghai,chengxi district,qinghai指青海，无需修改。chengxi district指西宁市的城西区，属于西宁，西宁是地级市，返回xining。将原输入市chengxi district输入填充到地区,qinghai,xining,chengxi district
+China,shandong,linyi,shandong指山东，无需修改。linyi指临沂，临沂是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,shandong,linyi,null
+China,yunnan,gejiu,yunnan指云南，无需修改。gejiu指个旧，个旧是县级市，隶属于红河哈尼族彝族自治州，返回honghe。将原输入市gejiu输入填充到地区,yunnan,honghe,gejiu
+China,zhejiang,wucheng district,zhejiang指浙江，无需修改。wucheng district指金华市的婺城区，属于金华，金华是地级市，返回jinhua。将原输入市wucheng district输入填充到地区,zhejiang,jinhua,wucheng district
+China,shandong,yantai,shandong指山东，无需修改。yantai指烟台，烟台是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,shandong,yantai,null
+China,chongqing,changshou district,chongqing指重庆，无需修改。changshou district指重庆市的长寿区，属于重庆，重庆是直辖市，返回chongqing。将原输入市changshou district输入填充到地区,chongqing,chongqing,changshou district
+China,shanghai,gaodongzhen,shanghai指上海，无需修改。gaodongzhen在上海找不到对应的区县，保持原始输入。,shanghai,gaodongzhen,null
+China,hebei,benchengzhen,hebei指河北，无需修改。benchengzhen在河北省内无法明确对应到某个具体的市或区县，保留原始输入。,hebei,benchengzhen,null
+China,beijing,tong xian,beijing指北京，无需修改。tong xian指通州区，属于北京，北京是直辖市，返回beijing。将原输入市tong xian输入填充到地区,beijing,beijing,tong xian
+China,hubei,dongbao district,hubei指湖北，无需修改。dongbao district指荆门市的东宝区，属于荆门，荆门是地级市，返回jingmen。将原输入市dongbao district输入填充到地区,hubei,jingmen,dongbao district
+China,yunnan,changkouxiang,yunnan指云南，无需修改。changkouxiang在云南省内无法明确对应到某个具体的市或区县，保留原始输入。,yunnan,changkouxiang,null
+China,guangdong,rongcheng district,guangdong指广东，无需修改。rongcheng district指佛山市的容桂街道，属于佛山，佛山是地级市，返回foshan。将原输入市rongcheng district输入填充到地区,guangdong,foshan,rongcheng district
+China,shandong,tianqiao district,shandong指山东，无需修改。tianqiao district指济南市的天桥区，属于济南，济南是地级市，返回jinan。将原输入市tianqiao district输入填充到地区,shandong,jinan,tianqiao district
+China,hunan,tianyuan district,hunan指湖南，无需修改。tianyuan district指株洲市的天元区，属于株洲，株洲是地级市，返回zhuzhou。将原输入市tianyuan district输入填充到地区,hunan,zhuzhou,tianyuan district
+China,shaanxi,baota district,shaanxi指陕西，无需修改。baota district指延安市的宝塔区，属于延安，延安是地级市，返回yanan。将原输入市baota district输入填充到地区,shaanxi,yanan,baota district
+China,heilongjiang,longfeng district,heilongjiang指黑龙江，无需修改。longfeng district指大庆市的龙凤区，属于大庆，大庆是地级市，返回daqing。将原输入市longfeng district输入填充到地区,heilongjiang,daqing,longfeng district
+China,hubei,jiang an district,hubei指湖北，无需修改。jiang an district指武汉市的江岸区，属于武汉，武汉是地级市，返回wuhan。将原输入市jiang an district输入填充到地区,hubei,wuhan,jiang an district
+China,guangdong,yuanzhouzhen,guangdong指广东，无需修改。yuanzhouzhen在广东省内无法明确对应到某个具体的市或区县，保留原始输入。,guangdong,yuanzhouzhen,null
+China,shanxi,taiyuan,shanxi指山西，无需修改。taiyuan指太原，太原是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,shanxi,taiyuan,null
+China,shanghai,No Data,shanghai指上海，无需修改。No Data表示无数据，保持原始输入。,shanghai,No Data,null
+China,hubei,jiang\u0027an district,hubei指湖北，无需修改。jiang'an district指武汉市的江岸区，属于武汉，武汉是地级市，返回wuhan。将原输入市jiang'an district输入填充到地区,hubei,wuhan,jiang'an district
+China,fujian,nanping,fujian指福建，无需修改。nanping指南平，南平是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,fujian,nanping,null
+China,hubei,qiaokou district,hubei指湖北，无需修改。qiaokou district指武汉市的硚口区，属于武汉，武汉是地级市，返回wuhan。将原输入市qiaokou district输入填充到地区,hubei,wuhan,qiaokou district
+China,jiangsu,changzhou,jiangsu指江苏，无需修改。changzhou指常州，常州是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,jiangsu,changzhou,null
+China,shanghai,tangzhen,shanghai指上海，无需修改。tangzhen在上海找不到对应的区县，保持原始输入。,shanghai,tangzhen,null
+China,sichuan,leshan,sichuan指四川，无需修改。leshan指乐山，乐山是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,sichuan,leshan,null
+China,guangdong,shahe,guangdong指广东，无需修改。shahe在广东省内无法明确对应到某个具体的市或区县，保留原始输入。,guangdong,shahe,null
+China,zhejiang,taizhou,zhejiang指浙江，无需修改。taizhou指台州，台州是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,zhejiang,taizhou,null
+China,jiangsu,chongchuan district,jiangsu指江苏，无需修改。chongchuan district指江苏南通的崇川区，属于南通，返回nantong。将原输入市chongchuan district填充到地区,jiangsu,nantong,chongchuan district
+China,shandong,boxing county,shandong是山东的英文，符合格式无需修改。boxing county是指山东的博兴县，博兴县隶属于滨州市，返回binzhou。将原输入市boxing county填充到地区,shandong,binzhou,boxing county
+China,jilin,nanguan district,jilin指吉林，无需修改。nanguan district指吉林长春的南关区，属于长春，返回changchun。将原输入市nanguan district填充到地区,jilin,changchun,nanguan district
+China,guangdong,huadu district,guangdong指广东，无需修改。huadu district指广东广州的花都区，属于广州，返回guangzhou。将原输入市huadu district填充到地区,guangdong,guangzhou,huadu district
+China,anhui,feidong county,anhui指安徽，无需修改。feidong county指安徽合肥的肥东县，属于合肥，返回hefei。将原输入市feidong county填充到地区,anhui,hefei,feidong county
+China,shaanxi,lianhu district,shaanxi指陕西，无需修改。lianhu district指陕西西安的莲湖区，属于西安，返回xian。将原输入市lianhu district填充到地区,shaanxi,xian,lianhu district
+China,jiangxi,donghu district,jiangxi指江西，无需修改。donghu district指江西南昌的东湖区，属于南昌，返回nanchang。将原输入市donghu district填充到地区,jiangxi,nanchang,donghu district
+China,jiangxi,qingshanhu district,jiangxi指江西，无需修改。qingshanhu district指江西南昌的青山湖区，属于南昌，返回nanchang。将原输入市qingshanhu district填充到地区,jiangxi,nanchang,qingshanhu district
+China,shandong,weihai,shandong指山东，无需修改。weihai指威海，威海是地级市，符合格式无需修改。输入没有提供地区名，填充为null,shandong,weihai,null
+China,yunnan,wuhua district,yunnan指云南，无需修改。wuhua district指云南昆明的五华区，属于昆明，返回kunming。将原输入市wuhua district填充到地区,yunnan,kunming,wuhua district
+China,guangdong,jiangmen,guangdong指广东，无需修改。jiangmen指江门，江门是地级市，符合格式无需修改。输入没有提供地区名，填充为null,guangdong,jiangmen,null
+China,yunnan,dali,yunnan指云南，无需修改。dali指大理，大理是地级市，符合格式无需修改。输入没有提供地区名，填充为null,yunnan,dali,null
+China,chongqing,dadukou district,chongqing是直辖市，无需修改。dadukou district指重庆的大渡口区，属于重庆，返回chongqing。将原输入市dadukou district填充到地区,chongqing,chongqing,dadukou district
+China,shanghai,xinjing,shanghai是直辖市，无需修改。xinjing无法确定具体区域，保持原样,shanghai,xinjing,null
+China,liaoning,wusanxiang,liaoning指辽宁，无需修改。wusanxiang无法确定具体区域，保持原样,liaoning,wusanxiang,null
+China,jiangsu,yancheng,jiangsu指江苏，无需修改。yancheng指盐城，盐城是地级市，符合格式无需修改。输入没有提供地区名，填充为null,jiangsu,yancheng,null
+China,beijing,miyun,beijing是直辖市，无需修改。miyun指北京的密云区，属于北京，返回beijing。将原输入市miyun填充到地区,beijing,beijing,miyun
+China,guizhou,huaxi district,guizhou指贵州，无需修改。huaxi district指贵州贵阳的花溪区，属于贵阳，返回guiyang。将原输入市huaxi district填充到地区,guizhou,guiyang,huaxi district
+China,inner mongolia,kangbashi district,inner mongolia指内蒙古，无需修改。kangbashi district指内蒙古鄂尔多斯的康巴什区，属于鄂尔多斯，返回ordos。将原输入市kangbashi district填充到地区,inner mongolia,ordos,kangbashi district
+China,inner mongolia,hohhot,inner mongolia指内蒙古，无需修改。hohhot指呼和浩特，呼和浩特是地级市，符合格式无需修改。输入没有提供地区名，填充为null,inner mongolia,hohhot,null
+China,shaanxi,yangling district,shaanxi指陕西，无需修改。yangling district指陕西咸阳的杨陵区，属于咸阳，返回xianyang。将原输入市yangling district填充到地区,shaanxi,xianyang,yangling district
+China,jiangsu,qixia district,jiangsu指江苏，无需修改。qixia district指江苏南京的栖霞区，属于南京，返回nanjing。将原输入市qixia district填充到地区,jiangsu,nanjing,qixia district
+China,zhejiang,haishu district,zhejiang指浙江，无需修改。haishu district指浙江宁波的海曙区，属于宁波，返回ningbo。将原输入市haishu district填充到地区,zhejiang,ningbo,haishu district
+China,sichuan,dazhou,sichuan指四川，无需修改。dazhou指达州，达州是地级市，符合格式无需修改。输入没有提供地区名，填充为null,sichuan,dazhou,null
+China,guangdong,buji town,guangdong指广东，无需修改。buji town指广东深圳的布吉镇，属于深圳，返回shenzhen。将原输入市buji town填充到地区,guangdong,shenzhen,buji town
+China,fujian,jinjiang,fujian指福建，无需修改。jinjiang指晋江，晋江是县级市，所属地级市是泉州，返回quanzhou。将原输入市jinjiang填充到地区,fujian,quanzhou,jinjiang
+China,hebei,jingxiu district,hebei指河北，无需修改。jingxiu district指河北保定的竞秀区，属于保定，返回baoding。将原输入市jingxiu district填充到地区,hebei,baoding,jingxiu district
+China,anhui,luyang district,anhui指安徽，无需修改。luyang district指安徽合肥的庐阳区，属于合肥，返回hefei。将原输入市luyang district填充到地区,anhui,hefei,luyang district
+China,shandong,kuiwen district,shandong指山东，无需修改。kuiwen district指山东潍坊的奎文区，属于潍坊，返回weifang。将原输入市kuiwen district填充到地区,shandong,weifang,kuiwen district
+China,hainan,longhua district,hainan指海南，无需修改。longhua district指海南海口的龙华区，属于海口，返回haikou。将原输入市longhua district填充到地区,hainan,haikou,longhua district
+China,zhejiang,rui an,zhejiang指浙江，无需修改。rui an指瑞安，瑞安是县级市，所属地级市是温州，返回wenzhou。将原输入市rui an填充到地区,zhejiang,wenzhou,rui an
+China,guangxi zhuang,nanning,guangxi zhuang指广西壮族自治区，无需修改。nanning指南宁，南宁是地级市，符合格式无需修改。输入没有提供地区名，填充为null,guangxi zhuang,nanning,null
+China,guangdong,hualongzhen,guangdong指广东，无需修改。hualongzhen无法确定具体区域，保持原样,guangdong,hualongzhen,null
+China,shaanxi,ankang,shaanxi指陕西，无需修改。ankang指安康，安康是地级市，符合格式无需修改。输入没有提供地区名，填充为null,shaanxi,ankang,null
+China,chongqing,jiangbei district,chongqing是直辖市，无需修改。jiangbei district指重庆的江北区，属于重庆，返回chongqing。将原输入市jiangbei district填充到地区,chongqing,chongqing,jiangbei district
+China,hebei,shijiazhuang,hebei指河北，无需修改。shijiazhuang指石家庄，石家庄是地级市，符合格式无需修改。输入没有提供地区名，填充为null,hebei,shijiazhuang,null
+China,tianjin,huamingzhen,tianjin是直辖市，无需修改。huamingzhen指天津的华明镇，属于天津，返回tianjin。将原输入市huamingzhen填充到地区,tianjin,tianjin,huamingzhen
+China,zhejiang,jiaxing,zhejiang指浙江，无需修改。jiaxing指嘉兴，嘉兴是地级市，符合格式无需修改。输入没有提供地区名，填充为null,zhejiang,jiaxing,null
+China,sichuan,longmatan district,sichuan指四川，无需修改。longmatan district指四川泸州的龙马潭区，属于泸州，返回luzhou。将原输入市longmatan district填充到地区,sichuan,luzhou,longmatan district
+China,shandong,bizidian,shandong指山东，无需修改。bizidian无法确定具体区域，保持原样,shandong,bizidian,null
+China,qinghai,chengdong district,qinghai指青海，无需修改。chengdong district指青海西宁的城东区，属于西宁，返回xining。将原输入市chengdong district填充到地区,qinghai,xining,chengdong district
+China,tianjin,hedong district,tianjin是直辖市，无需修改。hedong district指天津的河东区，属于天津，返回tianjin。将原输入市hedong district填充到地区,tianjin,tianjin,hedong district
+China,fujian,sanyuan district,fujian指福建，无需修改。sanyuan district无法确定具体区域，保持原样,fujian,sanyuan district,null
+China,henan,pingqiao district,henan指河南，无需修改。pingqiao district指河南信阳的平桥区，属于信阳，返回xinyang。将原输入市pingqiao district填充到地区,henan,xinyang,pingqiao district
+China,guangdong,fushazhen,guangdong指广东，无需修改。fushazhen无法确定具体区域，保持原样,guangdong,fushazhen,null
+China,jiangsu,tongzhou district,jiangsu指江苏，无需修改。tongzhou district指江苏南通的通州区，属于南通，返回nantong。将原输入市tongzhou district填充到地区,jiangsu,nantong,tongzhou district
+China,hubei,xianning,hubei指湖北，无需修改。xianning指咸宁，咸宁是地级市，符合格式无需修改。输入没有提供地区名，填充为null,hubei,xianning,null
+China,shaanxi,shangnan county,shaanxi指陕西，无需修改。shangnan county指陕西商洛的商南县，属于商洛，返回shangluo。将原输入市shangnan county填充到地区,shaanxi,shangluo,shangnan county
+China,jilin,erdao district,jilin指吉林，无需修改。erdao district指吉林长春的二道区，属于长春，返回changchun。将原输入市erdao district填充到地区,jilin,changchun,erdao district
+China,shanxi,xiaodian district,shanxi指山西，无需修改。xiaodian district指山西太原的小店区，属于太原，返回taiyuan。将原输入市xiaodian district填充到地区,shanxi,taiyuan,xiaodian district
+China,guangxi zhuang,liuzhou,guangxi zhuang指广西壮族自治区，但应简化为guangxi。liuzhou是地级市，无需修改。输入没有提供地区名，填充为null。,guangxi,liuzhou,null
+China,jiangsu,qingjiangpu district,jiangsu指江苏，无需修改。qingjiangpu district是指清江浦区，属于淮安市，因此返回huaian。将原输入市qingjiangpu district输入填充到地区。,jiangsu,huaian,qingjiangpu district
+China,guangdong,zhaoqing,guangdong指广东，无需修改。zhaoqing是地级市，无需修改。输入没有提供地区名，填充为null。,guangdong,zhaoqing,null
+China,jiangsu,lishui,jiangsu指江苏，无需修改。lishui是地级市，无需修改。输入没有提供地区名，填充为null。,jiangsu,lishui,null
+China,hebei,lubei district,hebei指河北，无需修改。lubei district是指路北区，属于唐山市，因此返回tangshan。将原输入市lubei district输入填充到地区。,hebei,tangshan,lubei district
+China,jiangsu,suqian,jiangsu指江苏，无需修改。suqian是地级市，无需修改。输入没有提供地区名，填充为null。,jiangsu,suqian,null
+China,shaanxi,yulin,shaanxi指陕西，无需修改。yulin是地级市，无需修改。输入没有提供地区名，填充为null。,shaanxi,yulin,null
+China,hunan,lengshuijiang,hunan指湖南，无需修改。lengshuijiang是冷水江市，隶属于娄底市，因此返回loudi。将原输入市lengshuijiang输入填充到地区。,hunan,loudi,lengshuijiang
+China,inner mongolia,chifeng,inner mongolia指内蒙古自治区，但应简化为innermongolia。chifeng是地级市，无需修改。输入没有提供地区名，填充为null。,innermongolia,chifeng,null
+China,henan,sheqi county,henan指河南，无需修改。sheqi county是指社旗县，属于南阳市，因此返回nanyang。将原输入市sheqi county输入填充到地区。,henan,nanyang,sheqi county
+China,shaanxi,qindu district,shaanxi指陕西，无需修改。qindu district是指秦都区，属于咸阳市，因此返回xianyang。将原输入市qindu district输入填充到地区。,shaanxi,xianyang,qindu district
+China,guangdong,huiyang district,guangdong指广东，无需修改。huiyang district是指惠阳区，属于惠州市，因此返回huizhou。将原输入市huiyang district输入填充到地区。,guangdong,huizhou,huiyang district
+China,jiangsu,changshu,jiangsu指江苏，无需修改。changshu是县级市，隶属于苏州市，因此返回suzhou。将原输入市changshu输入填充到地区。,jiangsu,suzhou,changshu
+China,heilongjiang,sairt district,heilongjiang指黑龙江，无需修改。sairt district无法识别，返回原输入。,heilongjiang,sairt district,null
+China,fujian,quanzhou,fujian指福建，无需修改。quanzhou是地级市，无需修改。输入没有提供地区名，填充为null。,fujian,quanzhou,null
+China,guangdong,liwan district,guangdong指广东，无需修改。liwan district是指荔湾区，属于广州市，因此返回guangzhou。将原输入市liwan district输入填充到地区。,guangdong,guangzhou,liwan district
+China,hebei,chang an district,hebei指河北，无需修改。chang an district无法识别，返回原输入。,hebei,chang an district,null
+China,guangdong,maonan district,guangdong指广东，无需修改。maonan district是指茂南区，属于茂名市，因此返回maoming。将原输入市maonan district输入填充到地区。,guangdong,maoming,maonan district
+China,liaoning,lüshunkou district,liaoning指辽宁，无需修改。lüshunkou district是指旅顺口区，属于大连市，因此返回dalian。将原输入市lüshunkou district输入填充到地区。,liaoning,dalian,lüshunkou district
+China,anhui,xuanzhou district,anhui指安徽，无需修改。xuanzhou district是指宣州区，属于宣城市，因此返回xuancheng。将原输入市xuanzhou district输入填充到地区。,anhui,xuancheng,xuanzhou district
+China,shandong,huangdao district,shandong指山东，无需修改。huangdao district是指黄岛区，属于青岛市，因此返回qingdao。将原输入市huangdao district输入填充到地区。,shandong,qingdao,huangdao district
+China,beijing,daxing district,beijing指北京，无需修改。daxing district是指大兴区，直接填写。将原输入市daxing district输入填充到地区。,beijing,beijing,daxing district
+China,shanghai,nanxiang,shanghai指上海，无需修改。nanxiang是嘉定区的一个镇，因此返回jiading。将原输入市nanxiang输入填充到地区。,shanghai,jiading,nanxiang
+China,hebei,yunhe district,hebei指河北，无需修改。yunhe district无法识别，返回原输入。,hebei,yunhe district,null
+China,zhejiang,yuecheng district,zhejiang指浙江，无需修改。yuecheng district是指越城区，属于绍兴市，因此返回shaoxing。将原输入市yuecheng district输入填充到地区。,zhejiang,shaoxing,yuecheng district
+China,fujian,tongan district,fujian指福建，无需修改。tongan district无法识别，返回原输入。,fujian,tongan district,null
+China,shandong,jimo district,shandong指山东，无需修改。jimo district是指即墨区，属于青岛市，因此返回qingdao。将原输入市jimo district输入填充到地区。,shandong,qingdao,jimo district
+China,guangdong,chao an,guangdong指广东，无需修改。chao an无法识别，返回原输入。,guangdong,chao an,null
+China,shandong,donggang district,shandong指山东，无需修改。donggang district无法识别，返回原输入。,shandong,donggang district,null
+China,shandong,mudan district,shandong指山东，无需修改。mudan district是指牡丹区，属于菏泽市，因此返回heze。将原输入市mudan district输入填充到地区。,shandong,heze,mudan district
+China,jiangsu,jiangyin,jiangsu指江苏，无需修改。jiangyin是县级市，隶属于无锡市，因此返回wuxi。将原输入市jiangyin输入填充到地区。,jiangsu,wuxi,jiangyin
+China,shanghai,tangzhen town,shanghai指上海，无需修改。tangzhen town是浦东新区的一个镇，因此返回pudongxinqu。将原输入市tangzhen town输入填充到地区。,shanghai,pudongxinqu,tangzhen town
+China,chongqing,shapingba district,chongqing指重庆，无需修改。shapingba district是指沙坪坝区，直接填写。将原输入市shapingba district输入填充到地区。,chongqing,chongqing,shapingba district
+China,liaoning,huanggu district,liaoning指辽宁，无需修改。huanggu district是指皇姑区，属于沈阳市，因此返回shenyang。将原输入市huanggu district输入填充到地区。,liaoning,shenyang,huanggu district
+China,hainan,haitang district,hainan指海南，无需修改。haitang district是指海棠区，属于三亚市，因此返回sanya。将原输入市haitang district输入填充到地区。,hainan,sanya,haitang district
+China,jiangsu,pizhou,jiangsu指江苏，无需修改。pizhou是县级市，隶属于徐州市，因此返回xuzhou。将原输入市pizhou输入填充到地区。,jiangsu,xuzhou,pizhou
+China,inner mongolia,dongsheng,inner mongolia指内蒙古自治区，但应简化为innermongolia。dongsheng是指东胜区，属于鄂尔多斯市，因此返回ordos。将原输入市dongsheng输入填充到地区。,innermongolia,ordos,dongsheng
+China,guangdong,luohu district,guangdong指广东，无需修改。luohu district是指罗湖区，属于深圳市，因此返回shenzhen。将原输入市luohu district输入填充到地区。,guangdong,shenzhen,luohu district
+China,inner mongolia,jiuyuan district,inner mongolia指内蒙古自治区，但应简化为innermongolia。jiuyuan district是指九原区，属于包头市，因此返回baotou。将原输入市jiuyuan district输入填充到地区。,innermongolia,baotou,jiuyuan district
+China,beijing,changping district,beijing指北京，无需修改。changping district是指昌平区，直接填写。将原输入市changping district输入填充到地区。,beijing,beijing,changping district
+China,tibet,chengguan district,tibet指西藏，无需修改。chengguan district是指城关区，属于拉萨市，因此返回lasa。将原输入市chengguan district输入填充到地区。,tibet,lasa,chengguan district
+China,xinjiang uygur,shihezi,xinjiang uygur指新疆维吾尔自治区，但应简化为xinjiang。shihezi是石河子市，属于直辖市，无需修改。输入没有提供地区名，填充为null。,xinjiang,shihezi,null
+China,guangxi zhuang,tengchengzhen,guangxi zhuang指广西壮族自治区，但应简化为guangxi。tengchengzhen无法识别，返回原输入。,guangxi,tengchengzhen,null
+China,guangxi zhuang,lingui district,guangxi zhuang指广西壮族自治区，但应简化为guangxi。lingui district是指临桂区，属于桂林市，因此返回guilin。将原输入市lingui district输入填充到地区。,guangxi,guilin,lingui district
+China,guangdong,fuyong town,guangdong指广东，无需修改。fuyong town无法识别，返回原输入。,guangdong,fuyong town,null
+China,shaanxi,jintai district,shaanxi指陕西，无需修改。jintai district是指金台区，属于宝鸡市，因此返回baoji。将原输入市jintai district输入填充到地区。,shaanxi,baoji,jintai district
+China,hebei,guangyang district,hebei指河北，无需修改。guangyang district是指广阳区，属于廊坊市，因此返回langfang。将原输入市guangyang district输入填充到地区。,hebei,langfang,guangyang district
+China,hunan,changsha county,hunan指湖南，无需修改。changsha county是指长沙县，属于长沙市，因此返回changsha。将原输入市changsha county输入填充到地区。,hunan,changsha,changsha county
+China,henan,guancheng huizu district,henan指河南，无需修改。guancheng huizu district是指管城回族区，属于郑州市，因此返回zhengzhou。将原输入市guancheng huizu district输入填充到地区。,henan,zhengzhou,guancheng huizu district
+China,inner mongolia,ulanhot,inner mongolia指内蒙古自治区，但应简化为innermongolia。ulanhot是指乌兰浩特市，属于兴安盟，但不属于任何地级市，返回原输入。,innermongolia,ulanhot,null
+China,anhui,huashan district,anhui指安徽，无需修改。huashan district指安徽的黄山市黄山区，属于黄山市，返回huangshan。将原输入市huashan district填充到地区,anhui,huangshan,huashan district
+China,jiangsu,liyang,jiangsu指江苏，无需修改。liyang是指江苏的溧阳市，溧阳是县级市，所属地级市是常州所以返回changzhou。将原输入市liyang填充到地区。,jiangsu,changzhou,liyang
+China,henan,weibin district,henan指河南，无需修改。weibin district指河南的渭滨区，但河南省内没有名为渭滨区的地方，保持原输入不变。,henan,weibin district,null
+China,shaanxi,guodu town,shaanxi指陕西，无需修改。guodu town指过渡镇，但陕西省内没有明确匹配的地名，保持原输入不变。,shaanxi,guodu town,null
+China,shanxi,datong,shanxi指山西，无需修改。datong指山西的大同，大同是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,shanxi,datong,null
+China,anhui,feixi county,anhui指安徽，无需修改。feixi county指安徽的肥西县，肥西县属于合肥市，返回hefei。将原输入市feixi county填充到地区。,anhui,hefei,feixi county
+China,hunan,zhuhui district,hunan指湖南，无需修改。zhuhui district指湖南的珠晖区，珠晖区属于衡阳市，返回hengyang。将原输入市zhuhui district填充到地区。,hunan,hengyang,zhuhui district
+China,shandong,guangrao county,shandong指山东，无需修改。guangrao county指山东的广饶县，广饶县属于东营市，返回dongying。将原输入市guangrao county填充到地区。,shandong,dongying,guangrao county
+China,jiangsu,liangxi district,jiangsu指江苏，无需修改。liangxi district指江苏的梁溪区，梁溪区属于无锡市，返回wuxi。将原输入市liangxi district填充到地区。,jiangsu,wuxi,liangxi district
+China,fujian,haicang district,fujian指福建，无需修改。haicang district指福建的海沧区，海沧区属于厦门市，返回xiamen。将原输入市haicang district填充到地区。,fujian,xiamen,haicang district
+China,jilin,lüyuan district,jilin指吉林，无需修改。lüyuan district指吉林的绿园区，绿园区属于长春市，返回changchun。将原输入市lüyuan district填充到地区。,jilin,changchun,lüyuan district
+China,guangxi zhuang,youjiang district,guangxi zhuang指广西壮族自治区，无需修改。youjiang district指广西的右江区，右江区属于百色市，返回baise。将原输入市youjiang district填充到地区。,guangxi zhuang,baise,youjiang district
+China,shandong,longkou,shandong指山东，无需修改。longkou指山东的龙口市，龙口是县级市，所属地级市是烟台市，返回yantai。将原输入市longkou填充到地区。,shandong,yantai,longkou
+China,hubei,honghu,hubei指湖北，无需修改。honghu指湖北的洪湖市，洪湖是县级市，所属地级市是荆州市，返回jingzhou。将原输入市honghu填充到地区。,hubei,jingzhou,honghu
+China,henan,zhongyuan district,henan指河南，无需修改。zhongyuan district指河南的中原区，中原区属于郑州市，返回zhengzhou。将原输入市zhongyuan district填充到地区。,henan,zhengzhou,zhongyuan district
+China,henan,liangyuan district,henan指河南，无需修改。liangyuan district指河南的梁园区，梁园区属于商丘市，返回shangqiu。将原输入市liangyuan district填充到地区。,henan,shangqiu,liangyuan district
+China,zhejiang,cixi,zhejiang指浙江，无需修改。cixi指浙江的慈溪市，慈溪是县级市，所属地级市是宁波市，返回ningbo。将原输入市cixi填充到地区。,zhejiang,ningbo,cixi
+China,hainan,xiuying,hainan指海南，无需修改。xiuying指海南的秀英区，秀英区属于海口市，返回haikou。将原输入市xiuying填充到地区。,hainan,haikou,xiuying
+China,tibet,samzhubzê district,tibet指西藏，无需修改。samzhubzê district指西藏的桑珠孜区，桑珠孜区属于日喀则市，返回rikaze。将原输入市samzhubzê district填充到地区。,tibet,rikaze,samzhubzê district
+China,liaoning,baita district,liaoning指辽宁，无需修改。baita district指辽宁的白塔区，白塔区属于辽阳市，返回liaoyang。将原输入市baita district填充到地区。,liaoning,liaoyang,baita district
+China,sichuan,chuanshan district,sichuan指四川，无需修改。chuanshan district指四川的船山区，船山区属于遂宁市，返回suining。将原输入市chuanshan district填充到地区。,sichuan,suining,chuanshan district
+China,jiangsu,wujin district,jiangsu指江苏，无需修改。wujin district指江苏的武进区，武进区属于常州市，返回changzhou。将原输入市wujin district填充到地区。,jiangsu,changzhou,wujin district
+China,chongqing,beibei district,chongqing指重庆，无需修改。beibei district指重庆的北碚区，北碚区直接隶属于重庆市，返回chongqing。将原输入市beibei district填充到地区。,chongqing,chongqing,beibei district
+China,anhui,lujiang county,anhui指安徽，无需修改。lujiang county指安徽的庐江县，庐江县属于合肥市，返回hefei。将原输入市lujiang county填充到地区。,anhui,hefei,lujiang county
+China,hunan,zhuzhou,hunan指湖南，无需修改。zhuzhou指湖南的株洲市，株洲是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,hunan,zhuzhou,null
+China,tianjin,xiqing district,tianjin指天津，无需修改。xiqing district指天津的西青区，西青区直接隶属于天津市，返回tianjin。将原输入市xiqing district填充到地区。,tianjin,tianjin,xiqing district
+China,jiangxi,nanchang county,jiangxi指江西，无需修改。nanchang county指江西的南昌县，南昌县属于南昌市，返回nanchang。将原输入市nanchang county填充到地区。,jiangxi,nanchang,nanchang county
+China,guangdong,baini,guangdong指广东，无需修改。baini指广东的白坭镇，白坭镇属于佛山市三水区，返回foshan。将原输入市baini填充到地区。,guangdong,foshan,baini
+China,beijing,dongxiaokouzhen,beijing指北京，无需修改。dongxiaokouzhen指北京的东小口镇，东小口镇属于昌平区，返回changping。将原输入市dongxiaokouzhen填充到地区。,beijing,changping,dongxiaokouzhen
+China,ningxia hui,jinfeng district,ningxia hui指宁夏回族自治区，无需修改。jinfeng district指宁夏的金凤区，金凤区属于银川市，返回yinchuan。将原输入市jinfeng district填充到地区。,ningxia hui,yinchuan,jinfeng district
+China,guizhou,anlexiang,guizhou指贵州，无需修改。anlexiang指贵州的安乐乡，但贵州省内没有明确匹配的地名，保持原输入不变。,guizhou,anlexiang,null
+China,shandong,huancui qu,shandong指山东，无需修改。huancui qu指山东的环翠区，环翠区属于威海市，返回weihai。将原输入市huancui qu填充到地区。,shandong,weihai,huancui qu
+China,sichuan,lizhou district,sichuan指四川，无需修改。lizhou district指四川的利州区，利州区属于广元市，返回guangyuan。将原输入市lizhou district填充到地区。,sichuan,guangyuan,lizhou district
+China,henan,kaifeng,henan指河南，无需修改。kaifeng指河南的开封市，开封是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,henan,kaifeng,null
+China,shandong,zaozhuang,shandong指山东，无需修改。zaozhuang指山东的枣庄市，枣庄是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,shandong,zaozhuang,null
+China,sichuan,jiange county,sichuan指四川，无需修改。jiange county指四川的剑阁县，剑阁县属于广元市，返回guangyuan。将原输入市jiange county填充到地区。,sichuan,guangyuan,jiange county
+China,beijing,liangxiang,beijing指北京，无需修改。liangxiang指北京的良乡镇，良乡镇属于房山区，返回fangshan。将原输入市liangxiang填充到地区。,beijing,fangshan,liangxiang
+China,No Data,zhengzhou,No Data指无数据，无法确定省和市的信息，保持原输入不变。,No Data,zhengzhou,null
+China,jilin,jilin,jilin指吉林，无需修改。jilin指吉林市，吉林是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,jilin,jilin,null
+China,liaoning,lingshui,liaoning指辽宁，无需修改。lingshui指辽宁的凌水街道，但辽宁省没有明确匹配的地名，保持原输入不变。,liaoning,lingshui,null
+China,zhejiang,shaoxing,zhejiang指浙江，无需修改。shaoxing指浙江的绍兴市，绍兴是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,zhejiang,shaoxing,null
+China,anhui,chaohu,anhui指安徽，无需修改。chaohu指安徽的巢湖市，巢湖是县级市，所属地级市是合肥市，返回hefei。将原输入市chaohu填充到地区。,anhui,hefei,chaohu
+China,guangxi zhuang,qingxiu qu,guangxi zhuang指广西壮族自治区，无需修改。qingxiu qu指广西的青秀区，青秀区属于南宁市，返回nanning。将原输入市qingxiu qu填充到地区。,guangxi zhuang,nanning,qingxiu qu
+China,hubei,xiling district,hubei指湖北，无需修改。xiling district指湖北的西陵区，西陵区属于宜昌市，返回yichang。将原输入市xiling district填充到地区。,hubei,yichang,xiling district
+China,hebei,tangshan,hebei指河北，无需修改。tangshan指河北的唐山市，唐山是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,hebei,tangshan,null
+China,hebei,langfang,hebei指河北，无需修改。langfang指河北的廊坊市，廊坊是地级市，符合格式无需修改。输入没有提供地区名，填充为null。,hebei,langfang,null
+China,liaoning,wafangdian,liaoning指辽宁，无需修改。wafangdian指辽宁的瓦房店市，瓦房店是县级市，所属地级市是大连市，返回dalian。将原输入市wafangdian填充到地区。,liaoning,dalian,wafangdian
+China,sichuan,emeishan city,sichuan指四川，无需修改。emeishan city指四川的峨眉山市，峨眉山是县级市，所属地级市是乐山市，返回leshan。将原输入市emeishan city填充到地区。,sichuan,leshan,emeishan city
+China,hunan,zhengxiang district,hunan指湖南，无需修改。zhengxiang district指湖南的蒸湘区，蒸湘区属于衡阳市，返回hengyang。将原输入市zhengxiang district填充到地区。,hunan,hengyang,zhengxiang district
+China,liaoning,shenhe district,liaoning指辽宁，无需修改。shenhe district指辽宁的沈河区，沈河区属于沈阳市，返回shenyang。将原输入市shenhe district填充到地区。,liaoning,shenyang,shenhe district
+China,inner mongolia,huimin district,inner mongolia指内蒙古，无需修改。huimin district指内蒙古的惠民区，但没有明确属于哪个市，无法确定具体地级市，返回null。将原输入市huimin district填充到地区,inner mongolia,null,huimin district
+China,beijing,dongbeiwangxiang,beijing是北京的英文，符合格式无需修改。dongbeiwangxiang是指北京的东北旺乡，属于海淀区，因此返回haidian。将原输入市dongbeiwangxiang填充到地区。,beijing,haidian,dongbeiwangxiang
+China,hebei,zaoqiang,hebei是河北的英文，符合格式无需修改。zaoqiang指河北的枣强县，所属地级市为衡水，返回hengshui。将原输入市zaoqiang填充到地区。,hebei,hengshui,zaoqiang
+China,shanghai,changzheng,shanghai是上海的英文，符合格式无需修改。changzheng是指上海的长征镇，属于普陀区，返回putuo。将原输入市changzheng填充到地区。,shanghai,putuo,changzheng
+China,shaanxi,jingbian,shaanxi是陕西的英文，符合格式无需修改。jingbian指陕西的靖边县，属于榆林市，返回yulin。将原输入市jingbian填充到地区。,shaanxi,yulin,jingbian
+China,zhejiang,nanhu district,zhejiang是浙江的英文，符合格式无需修改。nanhu district指浙江的南湖区，属于嘉兴市，返回jiaxing。将原输入市nanhu district填充到地区。,zhejiang,jiaxing,nanhu district
+China,sichuan,shizhong district,sichuan是四川的英文，符合格式无需修改。shizhong district指四川的市中区，属于乐山市，返回leshan。将原输入市shizhong district填充到地区。,sichuan,leshan,shizhong district
+China,jiangsu,zhenjiang,jiangsu是江苏的英文，符合格式无需修改。zhenjiang指江苏的镇江市，镇江是地级市，无需修改。输入没有提供地区名，填充为null。,jiangsu,zhenjiang,null
+China,liaoning,tuoshanxiang,liaoning是辽宁的英文，符合格式无需修改。tuoshanxiang指辽宁的驼山乡，但没有明确属于哪个市，无法确定具体地级市，返回null。将原输入市tuoshanxiang填充到地区。,liaoning,null,tuoshanxiang
+China,shandong,heze,shandong是山东的英文，符合格式无需修改。heze指山东的菏泽市，菏泽是地级市，无需修改。输入没有提供地区名，填充为null。,shandong,heze,null
+China,jiangsu,pukou district,jiangsu是江苏的英文，符合格式无需修改。pukou district指江苏的浦口区，属于南京市，返回nanjing。将原输入市pukou district填充到地区。,jiangsu,nanjing,pukou district
+China,hunan,yuetang district,hunan是湖南的英文，符合格式无需修改。yuetang district指湖南的岳塘区，属于湘潭市，返回xiangtan。将原输入市yuetang district填充到地区。,hunan,xiangtan,yuetang district
+China,hubei,jingzhou district,hubei是湖北的英文，符合格式无需修改。jingzhou district指湖北的荆州区，属于荆州市，返回jingzhou。将原输入市jingzhou district填充到地区。,hubei,jingzhou,jingzhou district
+China,guangdong,yayaozhen guangzhou,guangdong指广东，无需修改。yayaozhen guangzhou指广东的雅瑶镇广州，雅瑶镇属于广州市，返回guangzhou。将原输入市yayaozhen guangzhou填充到地区。,guangdong,guangzhou,yayaozhen guangzhou
+China,guangdong,xiashan district,guangdong指广东，无需修改。xiashan district指广东的霞山区，属于湛江市，返回zhanjiang。将原输入市xiashan district填充到地区。,guangdong,zhanjiang,xiashan district
+China,qinghai,xining,qinghai是青海的英文，符合格式无需修改。xining指青海的西宁市，西宁是地级市，无需修改。输入没有提供地区名，填充为null。,qinghai,xining,null
+China,guangdong,zhanjiang,guangdong指广东，无需修改。zhanjiang指广东的湛江市，湛江是地级市，无需修改。输入没有提供地区名，填充为null。,guangdong,zhanjiang,null
+China,yunnan,honghe hanizu yizu aut prefecture,yunnan是云南的英文，符合格式无需修改。honghe hanizu yizu aut prefecture指云南的红河哈尼族彝族自治州，红河州是自治州，无需修改。输入没有提供地区名，填充为null。,yunnan,honghe hanizu yizu aut prefecture,null
+China,inner mongolia,haibowan district,inner mongolia指内蒙古，无需修改。haibowan district指内蒙古的海勃湾区，属于乌海市，返回wuhai。将原输入市haibowan district填充到地区。,inner mongolia,wuhai,haibowan district
+China,shaanxi,daliutazhen,shaanxi是陕西的英文，符合格式无需修改。daliutazhen指陕西的大六塔镇，但没有明确属于哪个市，无法确定具体地级市，返回null。将原输入市daliutazhen填充到地区。,shaanxi,null,daliutazhen
+China,jiangsu,chongchuan qu,jiangsu是江苏的英文，符合格式无需修改。chongchuan qu指江苏的崇川区，属于南通市，返回nantong。将原输入市chongchuan qu填充到地区。,jiangsu,nantong,chongchuan qu
+China,guizhou,duyun,guizhou是贵州的英文，符合格式无需修改。duyun指贵州的都匀市，都匀是县级市，所属地级市为黔南布依族苗族自治州，返回qiannan buyizu miaozu zizhizhou。将原输入市duyun填充到地区。,guizhou,qiannan buyizu miaozu zizhizhou,duyun
+China,yunnan,wenshan,yunnan是云南的英文，符合格式无需修改。wenshan指云南的文山市，文山是县级市，所属地级市为文山壮族苗族自治州，返回wenshan zhuangzu miaozu zizhizhou。将原输入市wenshan填充到地区。,yunnan,wenshan zhuangzu miaozu zizhizhou,wenshan
+China,hubei,xiaonan district,hubei是湖北的英文，符合格式无需修改。xiaonan district指湖北的孝南区，属于孝感市，返回xiaogan。将原输入市xiaonan district填充到地区。,hubei,xiaogan,xiaonan district
+China,hubei,enshi tujiazu miaozu zizhizhou,hubei是湖北的英文，符合格式无需修改。enshi tujiazu miaozu zizhizhou指湖北的恩施土家族苗族自治州，恩施州是自治州，无需修改。输入没有提供地区名，填充为null。,hubei,enshi tujiazu miaozu zizhizhou,null
+China,fujian,xiang an district,fujian是福建的英文，符合格式无需修改。xiang an district指福建的翔安区，属于厦门市，返回xiamen。将原输入市xiang an district填充到地区。,fujian,xiamen,xiang an district
+China,gansu,lanzhou,gansu是甘肃的英文，符合格式无需修改。lanzhou指甘肃的兰州市，兰州是地级市，无需修改。输入没有提供地区名，填充为null。,gansu,lanzhou,null
+China,guangdong,yuancheng district,guangdong指广东，无需修改。yuancheng district指广东的源城区，属于河源市，返回heyuan。将原输入市yuancheng district填充到地区。,guangdong,heyuan,yuancheng district
+China,henan,xinyang,henan是河南的英文，符合格式无需修改。xinyang指河南的信阳市，信阳是地级市，无需修改。输入没有提供地区名，填充为null。,henan,xinyang,null
+China,sichuan,songpan county,sichuan是四川的英文，符合格式无需修改。songpan county指四川的松潘县，属于阿坝藏族羌族自治州，返回abazangzu qiangzu zizhizhou。将原输入市songpan county填充到地区。,sichuan,abazangzu qiangzu zizhizhou,songpan county
+China,shandong,zibo,shandong是山东的英文，符合格式无需修改。zibo指山东的淄博市，淄博是地级市，无需修改。输入没有提供地区名，填充为null。,shandong,zibo,null
+China,hubei,enshi city,hubei是湖北的英文，符合格式无需修改。enshi city指湖北的恩施市，属于恩施土家族苗族自治州，返回enshi tujiazu miaozu zizhizhou。将原输入市enshi city填充到地区。,hubei,enshi tujiazu miaozu zizhizhou,enshi city
+China,guangdong,pingdi,guangdong指广东，无需修改。pingdi指广东的坪地街道，属于深圳市，返回shenzhen。将原输入市pingdi填充到地区。,guangdong,shenzhen,pingdi
+China,guangdong,zengcheng district,guangdong指广东，无需修改。zengcheng district指广东的增城区，属于广州市，返回guangzhou。将原输入市zengcheng district填充到地区。,guangdong,guangzhou,zengcheng district
+China,shanghai,dachangzhen,shanghai是上海的英文，符合格式无需修改。dachangzhen指上海的大场镇，属于宝山区，返回baoshan。将原输入市dachangzhen填充到地区。,shanghai,baoshan,dachangzhen
+China,guizhou,shixizhen,guizhou是贵州的英文，符合格式无需修改。shixizhen指贵州的石溪镇，但没有明确属于哪个市，无法确定具体地级市，返回null。将原输入市shixizhen填充到地区。,guizhou,null,shixizhen
+China,beijing,tianzhu,beijing是北京的英文，符合格式无需修改。tianzhu指北京的天竺镇，属于顺义区，返回shunyi。将原输入市tianzhu填充到地区。,beijing,shunyi,tianzhu
+China,zhejiang,sandunzhen,zhejiang是浙江的英文，符合格式无需修改。sandunzhen指浙江的三墩镇，属于杭州市，返回hangzhou。将原输入市sandunzhen填充到地区。,zhejiang,hangzhou,sandunzhen
+China,hebei,haigang district,hebei是河北的英文，符合格式无需修改。haigang district指河北的海港区，属于秦皇岛市，返回qinhuangdao。将原输入市haigang district填充到地区。,hebei,qinhuangdao,haigang district
+China,xinjiang uygur,tianshan district,xinjiang uygur是新疆维吾尔自治区的英文，符合格式无需修改。tianshan district指新疆维吾尔自治区的天山区，属于乌鲁木齐市，返回wulumuqi。将原输入市tianshan district填充到地区。,xinjiang uygur,wulumuqi,tianshan district
+China,jiangsu,tianning district,jiangsu是江苏的英文，符合格式无需修改。tianning district指江苏的天宁区，属于常州市，返回changzhou。将原输入市tianning district填充到地区。,jiangsu,changzhou,tianning district
+China,guangdong,shunde qu,guangdong指广东，无需修改。shunde qu指广东的顺德区，属于佛山市，返回foshan。将原输入市shunde qu填充到地区。,guangdong,foshan,shunde qu
+China,yunnan,jinghong,yunnan是云南的英文，符合格式无需修改。jinghong指云南的景洪市，景洪是县级市，所属地级市为西双版纳傣族自治州，返回xishuangbanna dai zu zizhizhou。将原输入市jinghong填充到地区。,yunnan,xishuangbanna dai zu zizhizhou,jinghong
+China,inner mongolia,bayan hot,inner mongolia指内蒙古，无需修改。bayan hot指内蒙古的巴彦淖尔市，巴彦淖尔是地级市，无需修改。输入没有提供地区名，填充为null。,inner mongolia,bayan hot,null
+China,yunnan,longyang district,yunnan是云南的英文，符合格式无需修改。longyang district指云南的隆阳区，属于保山市，返回baoshan。将原输入市longyang district填充到地区。,yunnan,baoshan,longyang district
+China,sichuan,guanghan,sichuan是四川的英文，符合格式无需修改。guanghan指四川的广汉市，广汉是县级市，所属地级市为德阳市，返回deyang。将原输入市guanghan填充到地区。,sichuan,deyang,guanghan
+China,henan,yichuan,henan是河南的英文，符合格式无需修改。yichuan指河南的伊川县，属于洛阳市，返回luoyang。将原输入市yichuan填充到地区。,henan,luoyang,yichuan
+China,guangdong,chancheng district,guangdong指广东，无需修改。chancheng district指广东的禅城区，属于佛山市，返回foshan。将原输入市chancheng district填充到地区。,guangdong,foshan,chancheng district
+China,sichuan,jingyang district,sichuan是四川的英文，符合格式无需修改。jingyang district指四川的旌阳区，属于德阳市，返回deyang。将原输入市jingyang district填充到地区。,sichuan,deyang,jingyang district
